@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<title>Grad Tech Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <h1>Grad&nbsp;Tech</h1>
+    <span id="updated" class="stamp"></span>
+  </div>
+  <div class="search">
+    <span class="search-icon" aria-hidden="true">⌕</span>
+    <input type="search" id="q" placeholder="Search company, role or location"
+           autocomplete="off" aria-label="Search opportunities">
+    <kbd class="search-hint">/</kbd>
+  </div>
+  <div class="topbar-actions">
+    <button id="help" class="icon" title="Keyboard shortcuts" aria-label="Keyboard shortcuts">?</button>
+    <button id="theme" class="icon" title="Toggle theme" aria-label="Toggle theme">◐</button>
+  </div>
+</header>
+
+<!-- Headline numbers double as navigation: each tile jumps to the matching view. -->
+<div id="statstrip" class="statstrip" role="group" aria-label="Summary"></div>
+
+<div id="coverage" class="coverage" hidden></div>
+
+<main class="layout">
+  <section class="col-jobs">
+
+    <div class="toolbar">
+      <nav id="tabs" class="tabs" aria-label="Views">
+        <button type="button" data-view="curated" aria-pressed="true">For me <span class="n"></span></button>
+        <button type="button" data-view="targets">Targets <span class="n"></span></button>
+        <button type="button" data-view="closing">Closing <span class="n"></span></button>
+        <button type="button" data-view="opening" title="Opened around now in the previous cycle, and this cycle's opening has not been published">Due to open <span class="n"></span></button>
+        <button type="button" data-view="new">New <span class="n"></span></button>
+        <button type="button" data-view="shortlist">Saved <span class="n"></span></button>
+        <button type="button" data-view="applied">Applied <span class="n"></span></button>
+        <button type="button" data-view="all">All <span class="n"></span></button>
+      </nav>
+      <div class="tools">
+        <button id="filterToggle" class="ghost" aria-expanded="false" aria-controls="filterPanel">
+          Filters <span id="filterCount" class="pipcount" hidden></span>
+        </button>
+        <label class="sortwrap">
+          <span class="vh">Sort by</span>
+          <select id="sort">
+            <option value="rank">Best fit</option>
+            <option value="deadline">Deadline</option>
+            <option value="opening">Opening date</option>
+            <option value="due">Due to open</option>
+            <option value="match">CV match</option>
+            <option value="company">Company</option>
+          </select>
+        </label>
+        <button id="sortDir" class="icon" title="Reverse sort order" aria-label="Reverse sort order">↓</button>
+      </div>
+    </div>
+
+    <div id="filterPanel" class="filterpanel" hidden>
+      <div class="filterrow">
+        <span class="filterlabel">Type</span>
+        <span id="typeFilters" class="chipset"></span>
+      </div>
+      <div class="filterrow">
+        <span class="filterlabel">Season</span>
+        <span id="seasonFilters" class="chipset"></span>
+      </div>
+      <div class="filterrow">
+        <span class="filterlabel">More</span>
+        <label class="chk"><input type="checkbox" id="scotOnly"> Scotland or remote</label>
+        <label class="chk">Closes within
+          <input type="number" id="within" min="0" max="365" placeholder="any"> days
+        </label>
+        <button id="reset" class="ghost tiny">Reset all</button>
+      </div>
+    </div>
+
+    <div id="activeFilters" class="activefilters" hidden></div>
+
+    <p id="count" class="listcount"></p>
+    <ul id="list" class="list"></ul>
+  </section>
+
+  <aside class="col-side">
+    <!-- A test that has actually been booked. The only hard date on this page, so
+         it sits above everything else the coach has to say. -->
+    <section id="assessment" class="panel assess" hidden>
+      <div class="panel-head">
+        <h2 id="assessTitle">Assessment</h2>
+        <span id="assessDue" class="pip"></span>
+      </div>
+      <div id="assessment-body"></div>
+    </section>
+
+    <section id="practice" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Today's practice</h2>
+        <span id="streak" class="pip"></span>
+      </div>
+      <div id="practice-body"></div>
+    </section>
+  </aside>
+</main>
+
+<dialog id="helpDlg" class="dlg">
+  <h2>Keyboard shortcuts</h2>
+  <dl class="keylist">
+    <dt><kbd>/</kbd></dt><dd>focus search</dd>
+    <dt><kbd>j</kbd> <kbd>k</kbd></dt><dd>move between roles</dd>
+    <dt><kbd>Enter</kbd></dt><dd>open the listing</dd>
+    <dt><kbd>s</kbd></dt><dd>save / unsave</dd>
+    <dt><kbd>a</kbd></dt><dd>mark applied</dd>
+    <dt><kbd>x</kbd></dt><dd>dismiss</dd>
+    <dt><kbd>o</kbd></dt><dd>show details</dd>
+    <dt><kbd>f</kbd></dt><dd>open filters</dd>
+    <dt><kbd>1</kbd>–<kbd>7</kbd></dt><dd>switch view</dd>
+    <dt><kbd>Esc</kbd></dt><dd>close / unfocus</dd>
+  </dl>
+  <p class="fineprint">Saved roles, notes and ticked problems live in this browser only.</p>
+  <form method="dialog"><button class="ghost">Close</button></form>
+</dialog>
+
+<footer>
+  <span id="credit"></span> ·
+  <a href="https://the-trackr.com" rel="noopener">Trackr</a> ·
+  <button id="help2" class="linkbtn">keyboard shortcuts</button>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

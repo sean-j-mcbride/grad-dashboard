@@ -1,0 +1,934 @@
+{
+  "date": "2026-09-05",
+  "mode": "targeted",
+  "focus": {
+    "company": "BlackRock",
+    "role": "2027 Full-Time Analyst Program",
+    "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/user-1735377/xf-bce35dd61046/candidate/so/pm/1/pl/1/opp/12219-2027-Full-Time-Analyst-Program-EMEA/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+    "closes_in_days": 25,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "Online coding assessment for the Analyst Program: 2-3 function-signature DS&A problems plus a handful of code-reading / output-prediction multiple choice, ~90 min, sat in your own language (Python/Java/C++ all accepted).",
+    "prep_notes": "Most of it sits at easy/low-medium: hidden test cases and finishing inside the clock decide it, not clever algorithms. Get a brute force passing first, then optimise. Expect a finance-flavoured framing (prices, orders, time series) over plain arrays — read the prompt twice before typing.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "Stack",
+      "Intervals"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        7
+      ],
+      [
+        "Hash Table",
+        5
+      ],
+      [
+        "Math",
+        4
+      ],
+      [
+        "Dynamic Programming",
+        4
+      ],
+      [
+        "String",
+        4
+      ],
+      [
+        "Two Pointers",
+        3
+      ],
+      [
+        "Bit Manipulation",
+        3
+      ],
+      [
+        "Tree",
+        3
+      ]
+    ],
+    "tagged_total": 19,
+    "evidence_thin": true,
+    "assessment": {
+      "date": "2026-09-09",
+      "in_days": 4,
+      "due_label": "in 4 days",
+      "label": "coding test"
+    }
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Lowest Common Ancestor of a Binary Search Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "neetcode_slug": "lowest-common-ancestor-in-binary-search-tree",
+      "topic": "Trees",
+      "difficulty": "Medium",
+      "patterns": [
+        "dfs",
+        "bfs",
+        "recursion"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+      "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+      "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Valid Parentheses",
+      "slug": "valid-parentheses",
+      "neetcode_slug": "validate-parentheses",
+      "topic": "Stack",
+      "difficulty": "Easy",
+      "patterns": [
+        "stack",
+        "monotonic-stack"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/validate-parentheses",
+      "neetcode_url": "https://neetcode.io/problems/validate-parentheses",
+      "leetcode_url": "https://leetcode.com/problems/valid-parentheses/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Lowest Common Ancestor of a Binary Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "neetcode_slug": "",
+      "topic": "Tree",
+      "difficulty": "Medium",
+      "patterns": [
+        "Depth-First Search",
+        "Binary Tree",
+        "Binary Lifting",
+        "Lowest Common Ancestor"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "neetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: BlackRock's coding test is now only 4 days out (sit-by Wed 9 Sep) and `state.json` still shows zero completions, streak 0, `last_completed_date` null — nine straight days since 2026-08-28 with nothing logged, which is now a far bigger risk than any topic gap: sitting a real 90-minute HackerRank OA having solved literally zero problems of any kind. The plan is rightly pinned to BlackRock's countdown — today drills its Trees/Stack signature picks (Lowest Common Ancestor BST/Binary Tree, Valid Parentheses, Two Sum, Group Anagrams, Best Time to Buy and Sell Stock), tomorrow and Sun the 7th work through the rest of that list, Mon the 8th is reserved for a full timed mock rehearsal, and Wed the 9th is the test itself — stay strictly Easy/low-Medium throughout, since BlackRock's OA rewards a fast brute force and finishing inside the clock over cleverness. No newly opened target roles today (only a non-target Bank of America listing; Trackr's live fetch was blocked again); JPMorgan Chase's two roles remain the nearest real published deadline behind BlackRock, at 57 days. Today's bar is non-negotiable: solve and log at least Valid Parentheses and Two Sum — the two easiest of today's set — because four days out from a real test with zero logged reps is the actual emergency now, not which topic gets drilled next.",
+    "BlackRock coding test is in 4 days (Wed 9 Sep) — practice is pinned to it until it is sat. Clear the `assessment_*` lines in targets.yaml afterwards.",
+    "Confirm the platform and time limit from the invite email and correct practice/assessments.yaml if it differs — the profile there assumes HackerRank, ~90 min.",
+    "Only 19 LeetCode problems are tagged BlackRock — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.",
+    "Most of it sits at easy/low-medium: hidden test cases and finishing inside the clock decide it, not clever algorithms. Get a brute force passing first, then optimise. Expect a finance-flavoured framing (prices, orders, time series) over plain arrays — read the prompt twice before typing."
+  ],
+  "extra_problems": [
+    {
+      "name": "Best Time to Buy and Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "neetcode_slug": "buy-and-sell-crypto",
+      "topic": "Sliding Window",
+      "difficulty": "Easy",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/buy-and-sell-crypto",
+      "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+      "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Two Sum",
+      "slug": "two-sum",
+      "neetcode_slug": "two-integer-sum",
+      "topic": "Arrays & Hashing",
+      "difficulty": "Easy",
+      "patterns": [
+        "hashing",
+        "prefix",
+        "counting"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/two-integer-sum",
+      "neetcode_url": "https://neetcode.io/problems/two-integer-sum",
+      "leetcode_url": "https://leetcode.com/problems/two-sum/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Group Anagrams",
+      "slug": "group-anagrams",
+      "neetcode_slug": "anagram-groups",
+      "topic": "Arrays & Hashing",
+      "difficulty": "Medium",
+      "patterns": [
+        "hashing",
+        "prefix",
+        "counting"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/anagram-groups",
+      "neetcode_url": "https://neetcode.io/problems/anagram-groups",
+      "leetcode_url": "https://leetcode.com/problems/group-anagrams/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Product of Array Except Self",
+      "slug": "product-of-array-except-self",
+      "neetcode_slug": "products-of-array-discluding-self",
+      "topic": "Arrays & Hashing",
+      "difficulty": "Medium",
+      "patterns": [
+        "hashing",
+        "prefix",
+        "counting"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/products-of-array-discluding-self",
+      "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+      "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "neetcode_slug": "top-k-elements-in-list",
+      "topic": "Arrays & Hashing",
+      "difficulty": "Medium",
+      "patterns": [
+        "hashing",
+        "prefix",
+        "counting"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/top-k-elements-in-list",
+      "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+      "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Merge Intervals",
+      "slug": "merge-intervals",
+      "neetcode_slug": "merge-intervals",
+      "topic": "Intervals",
+      "difficulty": "Medium",
+      "patterns": [
+        "intervals",
+        "sorting"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/merge-intervals",
+      "neetcode_url": "https://neetcode.io/problems/merge-intervals",
+      "leetcode_url": "https://leetcode.com/problems/merge-intervals/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    }
+  ],
+  "assessment": {
+    "company": "BlackRock",
+    "company_id": "blackrock",
+    "label": "coding test",
+    "date": "2026-09-09",
+    "date_label": "Wed 9 Sep",
+    "in_days": 4,
+    "due_label": "in 4 days",
+    "note": "Confirm the platform and time limit from the invite email and correct practice/assessments.yaml if it differs — the profile there assumes HackerRank, ~90 min.",
+    "platform": "HackerRank",
+    "style": "Online coding assessment for the Analyst Program: 2-3 function-signature DS&A problems plus a handful of code-reading / output-prediction multiple choice, ~90 min, sat in your own language (Python/Java/C++ all accepted).",
+    "prep_notes": "Most of it sits at easy/low-medium: hidden test cases and finishing inside the clock decide it, not clever algorithms. Get a brute force passing first, then optimise. Expect a finance-flavoured framing (prices, orders, time series) over plain arrays — read the prompt twice before typing.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "Stack",
+      "Intervals"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        7
+      ],
+      [
+        "Hash Table",
+        5
+      ],
+      [
+        "Math",
+        4
+      ],
+      [
+        "Dynamic Programming",
+        4
+      ],
+      [
+        "String",
+        4
+      ],
+      [
+        "Two Pointers",
+        3
+      ],
+      [
+        "Bit Manipulation",
+        3
+      ],
+      [
+        "Tree",
+        3
+      ]
+    ],
+    "tagged_total": 19,
+    "evidence_thin": true,
+    "problems": [
+      {
+        "name": "Best Time to Buy and Sell Stock",
+        "slug": "best-time-to-buy-and-sell-stock",
+        "neetcode_slug": "buy-and-sell-crypto",
+        "topic": "Sliding Window",
+        "difficulty": "Easy",
+        "patterns": [
+          "sliding-window"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/buy-and-sell-crypto",
+        "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Two Sum",
+        "slug": "two-sum",
+        "neetcode_slug": "two-integer-sum",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Easy",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/two-integer-sum",
+        "neetcode_url": "https://neetcode.io/problems/two-integer-sum",
+        "leetcode_url": "https://leetcode.com/problems/two-sum/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Valid Parentheses",
+        "slug": "valid-parentheses",
+        "neetcode_slug": "validate-parentheses",
+        "topic": "Stack",
+        "difficulty": "Easy",
+        "patterns": [
+          "stack",
+          "monotonic-stack"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/validate-parentheses",
+        "neetcode_url": "https://neetcode.io/problems/validate-parentheses",
+        "leetcode_url": "https://leetcode.com/problems/valid-parentheses/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Group Anagrams",
+        "slug": "group-anagrams",
+        "neetcode_slug": "anagram-groups",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Medium",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/anagram-groups",
+        "neetcode_url": "https://neetcode.io/problems/anagram-groups",
+        "leetcode_url": "https://leetcode.com/problems/group-anagrams/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Product of Array Except Self",
+        "slug": "product-of-array-except-self",
+        "neetcode_slug": "products-of-array-discluding-self",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Medium",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/products-of-array-discluding-self",
+        "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+        "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Top K Frequent Elements",
+        "slug": "top-k-frequent-elements",
+        "neetcode_slug": "top-k-elements-in-list",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Medium",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/top-k-elements-in-list",
+        "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+        "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Merge Intervals",
+        "slug": "merge-intervals",
+        "neetcode_slug": "merge-intervals",
+        "topic": "Intervals",
+        "difficulty": "Medium",
+        "patterns": [
+          "intervals",
+          "sorting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/merge-intervals",
+        "neetcode_url": "https://neetcode.io/problems/merge-intervals",
+        "leetcode_url": "https://leetcode.com/problems/merge-intervals/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Longest Substring Without Repeating Characters",
+        "slug": "longest-substring-without-repeating-characters",
+        "neetcode_slug": "longest-substring-without-duplicates",
+        "topic": "Sliding Window",
+        "difficulty": "Medium",
+        "patterns": [
+          "sliding-window"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+        "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+        "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Happy Number",
+        "slug": "happy-number",
+        "neetcode_slug": "non-cyclical-number",
+        "topic": "Math & Geometry",
+        "difficulty": "Easy",
+        "patterns": [
+          "math",
+          "matrix",
+          "simulation"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/non-cyclical-number",
+        "neetcode_url": "https://neetcode.io/problems/non-cyclical-number",
+        "leetcode_url": "https://leetcode.com/problems/happy-number/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find the Maximum Sum of Node Values",
+        "slug": "find-the-maximum-sum-of-node-values",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Hard",
+        "patterns": [
+          "Dynamic Programming",
+          "Greedy",
+          "Bit Manipulation",
+          "Tree",
+          "Sorting"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+        "neetcode_url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+        "leetcode_url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Lowest Common Ancestor of a Binary Search Tree",
+        "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+        "neetcode_slug": "lowest-common-ancestor-in-binary-search-tree",
+        "topic": "Trees",
+        "difficulty": "Medium",
+        "patterns": [
+          "dfs",
+          "bfs",
+          "recursion"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+        "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+        "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Lowest Common Ancestor of a Binary Tree",
+        "slug": "lowest-common-ancestor-of-a-binary-tree",
+        "neetcode_slug": "",
+        "topic": "Tree",
+        "difficulty": "Medium",
+        "patterns": [
+          "Depth-First Search",
+          "Binary Tree",
+          "Binary Lifting",
+          "Lowest Common Ancestor"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "neetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Transform Binary String Using Subsequence Sort",
+        "slug": "transform-binary-string-using-subsequence-sort",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Medium",
+        "patterns": [],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/",
+        "neetcode_url": "https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/",
+        "leetcode_url": "https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Climbing Stairs",
+        "slug": "climbing-stairs",
+        "neetcode_slug": "climbing-stairs",
+        "topic": "1-D Dynamic Programming",
+        "difficulty": "Easy",
+        "patterns": [
+          "dp",
+          "memoization"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/climbing-stairs",
+        "neetcode_url": "https://neetcode.io/problems/climbing-stairs",
+        "leetcode_url": "https://leetcode.com/problems/climbing-stairs/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find the Duplicate Number",
+        "slug": "find-the-duplicate-number",
+        "neetcode_slug": "find-duplicate-integer",
+        "topic": "Linked List",
+        "difficulty": "Medium",
+        "patterns": [
+          "linked-list",
+          "fast-slow-pointers"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/find-duplicate-integer",
+        "neetcode_url": "https://neetcode.io/problems/find-duplicate-integer",
+        "leetcode_url": "https://leetcode.com/problems/find-the-duplicate-number/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Integer to Roman",
+        "slug": "integer-to-roman",
+        "neetcode_slug": "",
+        "topic": "Hash Table",
+        "difficulty": "Medium",
+        "patterns": [
+          "Math",
+          "String"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/integer-to-roman/",
+        "neetcode_url": "https://leetcode.com/problems/integer-to-roman/",
+        "leetcode_url": "https://leetcode.com/problems/integer-to-roman/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Longest Palindromic Substring",
+        "slug": "longest-palindromic-substring",
+        "neetcode_slug": "longest-palindromic-substring",
+        "topic": "1-D Dynamic Programming",
+        "difficulty": "Medium",
+        "patterns": [
+          "dp",
+          "memoization"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/longest-palindromic-substring",
+        "neetcode_url": "https://neetcode.io/problems/longest-palindromic-substring",
+        "leetcode_url": "https://leetcode.com/problems/longest-palindromic-substring/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Missing Number",
+        "slug": "missing-number",
+        "neetcode_slug": "missing-number",
+        "topic": "Bit Manipulation",
+        "difficulty": "Easy",
+        "patterns": [
+          "bit-manipulation"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/missing-number",
+        "neetcode_url": "https://neetcode.io/problems/missing-number",
+        "leetcode_url": "https://leetcode.com/problems/missing-number/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Number of Islands",
+        "slug": "number-of-islands",
+        "neetcode_slug": "count-number-of-islands",
+        "topic": "Graphs",
+        "difficulty": "Medium",
+        "patterns": [
+          "bfs",
+          "dfs",
+          "union-find",
+          "topological-sort"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/count-number-of-islands",
+        "neetcode_url": "https://neetcode.io/problems/count-number-of-islands",
+        "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Valid Anagram",
+        "slug": "valid-anagram",
+        "neetcode_slug": "is-anagram",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Easy",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/is-anagram",
+        "neetcode_url": "https://neetcode.io/problems/is-anagram",
+        "leetcode_url": "https://leetcode.com/problems/valid-anagram/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      }
+    ],
+    "problems_done": 0,
+    "countdown": [
+      {
+        "date": "2026-09-05",
+        "label": "Today",
+        "days_left": 4,
+        "is_today": true,
+        "kind": "drill",
+        "task": "Drill HackerRank style — Trees, Stack. Timer on for each: 25 minutes, then read the solution rather than grinding. Write the function signature version, not a script.",
+        "problems": [
+          {
+            "name": "Lowest Common Ancestor of a Binary Search Tree",
+            "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+            "neetcode_slug": "lowest-common-ancestor-in-binary-search-tree",
+            "topic": "Trees",
+            "difficulty": "Medium",
+            "patterns": [
+              "dfs",
+              "bfs",
+              "recursion"
+            ],
+            "est_minutes": 25,
+            "url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+            "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+            "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          },
+          {
+            "name": "Valid Parentheses",
+            "slug": "valid-parentheses",
+            "neetcode_slug": "validate-parentheses",
+            "topic": "Stack",
+            "difficulty": "Easy",
+            "patterns": [
+              "stack",
+              "monotonic-stack"
+            ],
+            "est_minutes": 12,
+            "url": "https://neetcode.io/problems/validate-parentheses",
+            "neetcode_url": "https://neetcode.io/problems/validate-parentheses",
+            "leetcode_url": "https://leetcode.com/problems/valid-parentheses/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          },
+          {
+            "name": "Lowest Common Ancestor of a Binary Tree",
+            "slug": "lowest-common-ancestor-of-a-binary-tree",
+            "neetcode_slug": "",
+            "topic": "Tree",
+            "difficulty": "Medium",
+            "patterns": [
+              "Depth-First Search",
+              "Binary Tree",
+              "Binary Lifting",
+              "Lowest Common Ancestor"
+            ],
+            "est_minutes": 25,
+            "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+            "neetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+            "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "label": "Tomorrow",
+        "days_left": 3,
+        "is_today": false,
+        "kind": "drill",
+        "task": "Drill HackerRank style — Array, Linked List. Timer on for each: 25 minutes, then read the solution rather than grinding. Write the function signature version, not a script.",
+        "problems": [
+          {
+            "name": "Find the Maximum Sum of Node Values",
+            "slug": "find-the-maximum-sum-of-node-values",
+            "neetcode_slug": "",
+            "topic": "Array",
+            "difficulty": "Hard",
+            "patterns": [
+              "Dynamic Programming",
+              "Greedy",
+              "Bit Manipulation",
+              "Tree",
+              "Sorting"
+            ],
+            "est_minutes": 45,
+            "url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+            "neetcode_url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+            "leetcode_url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          },
+          {
+            "name": "Transform Binary String Using Subsequence Sort",
+            "slug": "transform-binary-string-using-subsequence-sort",
+            "neetcode_slug": "",
+            "topic": "Mixed",
+            "difficulty": "Medium",
+            "patterns": [],
+            "est_minutes": 25,
+            "url": "https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/",
+            "neetcode_url": "https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/",
+            "leetcode_url": "https://leetcode.com/problems/transform-binary-string-using-subsequence-sort/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          },
+          {
+            "name": "Find the Duplicate Number",
+            "slug": "find-the-duplicate-number",
+            "neetcode_slug": "find-duplicate-integer",
+            "topic": "Linked List",
+            "difficulty": "Medium",
+            "patterns": [
+              "linked-list",
+              "fast-slow-pointers"
+            ],
+            "est_minutes": 25,
+            "url": "https://neetcode.io/problems/find-duplicate-integer",
+            "neetcode_url": "https://neetcode.io/problems/find-duplicate-integer",
+            "leetcode_url": "https://leetcode.com/problems/find-the-duplicate-number/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          }
+        ]
+      },
+      {
+        "date": "2026-09-07",
+        "label": "Mon 7 Sep",
+        "days_left": 2,
+        "is_today": false,
+        "kind": "drill",
+        "task": "Drill HackerRank style — Math & Geometry, Hash Table, 1-D Dynamic Programming. Timer on for each: 25 minutes, then read the solution rather than grinding. Write the function signature version, not a script.",
+        "problems": [
+          {
+            "name": "Happy Number",
+            "slug": "happy-number",
+            "neetcode_slug": "non-cyclical-number",
+            "topic": "Math & Geometry",
+            "difficulty": "Easy",
+            "patterns": [
+              "math",
+              "matrix",
+              "simulation"
+            ],
+            "est_minutes": 12,
+            "url": "https://neetcode.io/problems/non-cyclical-number",
+            "neetcode_url": "https://neetcode.io/problems/non-cyclical-number",
+            "leetcode_url": "https://leetcode.com/problems/happy-number/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          },
+          {
+            "name": "Integer to Roman",
+            "slug": "integer-to-roman",
+            "neetcode_slug": "",
+            "topic": "Hash Table",
+            "difficulty": "Medium",
+            "patterns": [
+              "Math",
+              "String"
+            ],
+            "est_minutes": 25,
+            "url": "https://leetcode.com/problems/integer-to-roman/",
+            "neetcode_url": "https://leetcode.com/problems/integer-to-roman/",
+            "leetcode_url": "https://leetcode.com/problems/integer-to-roman/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          },
+          {
+            "name": "Longest Palindromic Substring",
+            "slug": "longest-palindromic-substring",
+            "neetcode_slug": "longest-palindromic-substring",
+            "topic": "1-D Dynamic Programming",
+            "difficulty": "Medium",
+            "patterns": [
+              "dp",
+              "memoization"
+            ],
+            "est_minutes": 25,
+            "url": "https://neetcode.io/problems/longest-palindromic-substring",
+            "neetcode_url": "https://neetcode.io/problems/longest-palindromic-substring",
+            "leetcode_url": "https://leetcode.com/problems/longest-palindromic-substring/",
+            "leetcode_premium": false,
+            "free_url": "",
+            "done": false
+          }
+        ]
+      },
+      {
+        "date": "2026-09-08",
+        "label": "Tue 8 Sep",
+        "days_left": 1,
+        "is_today": false,
+        "kind": "rehearsal",
+        "task": "Dress rehearsal — 90 minutes on a timer, no hints, no autocomplete beyond what the test itself gives you, in the language you will sit in. Then set up tomorrow: quiet room, charger, the invite link open, and a scratch file with your usual imports.",
+        "problems": [
+          {
+            "name": "Encode and Decode Strings",
+            "slug": "encode-and-decode-strings",
+            "neetcode_slug": "string-encode-and-decode",
+            "topic": "Arrays & Hashing",
+            "difficulty": "Medium",
+            "patterns": [
+              "hashing",
+              "prefix",
+              "counting"
+            ],
+            "est_minutes": 25,
+            "url": "https://neetcode.io/problems/string-encode-and-decode",
+            "neetcode_url": "https://neetcode.io/problems/string-encode-and-decode",
+            "leetcode_url": "https://leetcode.com/problems/encode-and-decode-strings/",
+            "leetcode_premium": true,
+            "free_url": "https://www.lintcode.com/problem/659/"
+          },
+          {
+            "name": "Valid Sudoku",
+            "slug": "valid-sudoku",
+            "neetcode_slug": "valid-sudoku",
+            "topic": "Arrays & Hashing",
+            "difficulty": "Medium",
+            "patterns": [
+              "hashing",
+              "prefix",
+              "counting"
+            ],
+            "est_minutes": 25,
+            "url": "https://neetcode.io/problems/valid-sudoku",
+            "neetcode_url": "https://neetcode.io/problems/valid-sudoku",
+            "leetcode_url": "https://leetcode.com/problems/valid-sudoku/",
+            "leetcode_premium": false,
+            "free_url": ""
+          }
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "label": "Wed 9 Sep",
+        "days_left": 0,
+        "is_today": false,
+        "kind": "test",
+        "task": "Sit the HackerRank coding test. Read each prompt twice and restate it before typing. Get a brute force passing every visible case first, then optimise — a correct O(n²) scores, an unfinished O(n) does not. Keep ten minutes back for the edge cases: empty input, one element, duplicates, negatives, and the largest size the constraints allow.",
+        "problems": []
+      }
+    ],
+    "today_task": "Drill HackerRank style — Trees, Stack. Timer on for each: 25 minutes, then read the solution rather than grinding. Write the function signature version, not a script."
+  },
+  "markdown": "### Practice — 2026-09-05\n**BlackRock coding test in 4 days** (Wed 9 Sep) — HackerRank. Drill HackerRank style — Trees, Stack. Timer on for each: 25 minutes, then read the solution rather than grinding. Write the function signature version, not a script.\n**Focus job:** BlackRock — 2027 Full-Time Analyst Program (closes in 25 d). Assessment: HackerRank — Online coding assessment for the Analyst Program: 2-3 function-signature DS&A problems plus a handful of code-reading / output-prediction multiple choice, ~90 min, sat in your own language (Python/Java/C++ all accepted).\n- [Lowest Common Ancestor of a Binary Search Tree](https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree) · Medium · Trees · ~25 min · asked by this company\n- [Valid Parentheses](https://neetcode.io/problems/validate-parentheses) · Easy · Stack · ~12 min · asked by this company\n- [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · Medium · Tree · ~25 min · asked by this company\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: BlackRock's coding test is now only 4 days out (sit-by Wed 9 Sep) and `state.json` still shows zero completions, streak 0, `last_completed_date` null — nine straight days since 2026-08-28 with nothing logged, which is now a far bigger risk than any topic gap: sitting a real 90-minute HackerRank OA having solved literally zero problems of any kind. The plan is rightly pinned to BlackRock's countdown — today drills its Trees/Stack signature picks (Lowest Common Ancestor BST/Binary Tree, Valid Parentheses, Two Sum, Group Anagrams, Best Time to Buy and Sell Stock), tomorrow and Sun the 7th work through the rest of that list, Mon the 8th is reserved for a full timed mock rehearsal, and Wed the 9th is the test itself — stay strictly Easy/low-Medium throughout, since BlackRock's OA rewards a fast brute force and finishing inside the clock over cleverness. No newly opened target roles today (only a non-target Bank of America listing; Trackr's live fetch was blocked again); JPMorgan Chase's two roles remain the nearest real published deadline behind BlackRock, at 57 days. Today's bar is non-negotiable: solve and log at least Valid Parentheses and Two Sum — the two easiest of today's set — because four days out from a real test with zero logged reps is the actual emergency now, not which topic gets drilled next.\n> BlackRock coding test is in 4 days (Wed 9 Sep) — practice is pinned to it until it is sat. Clear the `assessment_*` lines in targets.yaml afterwards.\n> Confirm the platform and time limit from the invite email and correct practice/assessments.yaml if it differs — the profile there assumes HackerRank, ~90 min.\n> Only 19 LeetCode problems are tagged BlackRock — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.\n> Most of it sits at easy/low-medium: hidden test cases and finishing inside the clock decide it, not clever algorithms. Get a brute force passing first, then optimise. Expect a finance-flavoured framing (prices, orders, time series) over plain arrays — read the prompt twice before typing."
+}
