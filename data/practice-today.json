@@ -1,0 +1,1636 @@
+{
+  "date": "2026-09-12",
+  "mode": "targeted",
+  "focus": {
+    "company": "J.P. Morgan",
+    "role": "2027 Software Engineer Program",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774781/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+    "closes_in_days": 50,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.",
+    "prep_notes": "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [],
+    "tagged_total": 81,
+    "evidence_thin": false,
+    "assessment": {
+      "date": null,
+      "in_days": null,
+      "due_label": "still to sit",
+      "label": "HackerRank OA"
+    }
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Minimum Number of Steps to Make Two Strings Anagram",
+      "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+      "neetcode_slug": "",
+      "topic": "Hash Table",
+      "difficulty": "Medium",
+      "patterns": [
+        "String",
+        "Counting"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Count Binary Substrings",
+      "slug": "count-binary-substrings",
+      "neetcode_slug": "",
+      "topic": "Two Pointers",
+      "difficulty": "Easy",
+      "patterns": [
+        "String"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/count-binary-substrings/",
+      "neetcode_url": "https://leetcode.com/problems/count-binary-substrings/",
+      "leetcode_url": "https://leetcode.com/problems/count-binary-substrings/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Minimum Operations to Make All Array Elements Equal",
+      "slug": "minimum-operations-to-make-all-array-elements-equal",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Binary Search",
+        "Sorting",
+        "Prefix Sum"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: The single most urgent thing this week is unchanged and getting more expensive: Barclays' 2027 Technology Graduate Programme now closes in 13 days (25 Sep) — still the nearest deadline of any target, ahead of BlackRock's 18-day outcome-pending application and JPMorgan's 50-day Software Engineer Program / Data & AI closings — so if the CV and cover letter aren't submitted yet, that has to move today rather than slip further. `state.json` still shows zero completions across all sixteen days since 2026-08-28 — streak 0, `curriculum_cursor` 0, `last_completed_date` null — so stay strictly on fundamentals (Arrays & Hashing, Two Pointers, Stack, easy/low-medium), which covers both Barclays' own HackerRank-style OA and JPMorgan's still-pending, still-undated Cognitive + Coding invite. No newly opened target roles today — Trackr's live fetch was blocked again (proxy 403 on all four feeds, prior snapshot kept) — the only new listings anywhere in the feed (Lloyds Banking Group x2, Qube RT x2) are all non-target. Solve and log at least two problems today — Two Sum and Valid Parentheses sit on both Barclays' and JPMorgan's signature lists — while getting the Barclays application itself finished before its 25 Sep close.",
+    "JPMorgan Chase HackerRank OA is still to sit and the invite gave no deadline, so there is no countdown — practice is pinned to it until you clear the `assessment_*` lines in targets.yaml. Unlike a dated one this never lapses on its own, so delete it the day you sit the test.",
+    "Cognitive section as well as the coding — do a couple of timed numerical / logical reps before sitting it, and check the invite email for a time limit.",
+    "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+  ],
+  "extra_problems": [
+    {
+      "name": "Maximum Number of Points From Grid Queries",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Two Pointers",
+        "Breadth-First Search",
+        "Union-Find",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Matrix"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "neetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "leetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Minimum Suffix Flips",
+      "slug": "minimum-suffix-flips",
+      "neetcode_slug": "",
+      "topic": "String",
+      "difficulty": "Medium",
+      "patterns": [
+        "Greedy"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/minimum-suffix-flips/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-suffix-flips/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-suffix-flips/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Determine Color of a Chessboard Square",
+      "slug": "determine-color-of-a-chessboard-square",
+      "neetcode_slug": "",
+      "topic": "Mixed",
+      "difficulty": "Easy",
+      "patterns": [],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+      "neetcode_url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+      "leetcode_url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Lexicographically Smallest String After a Swap",
+      "slug": "lexicographically-smallest-string-after-a-swap",
+      "neetcode_slug": "",
+      "topic": "Mixed",
+      "difficulty": "Easy",
+      "patterns": [],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/",
+      "neetcode_url": "https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/",
+      "leetcode_url": "https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Minimum Absolute Difference",
+      "slug": "minimum-absolute-difference",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "patterns": [
+        "Sorting"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/minimum-absolute-difference/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-absolute-difference/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-absolute-difference/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Find Resultant Array After Removing Anagrams",
+      "slug": "find-resultant-array-after-removing-anagrams",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "patterns": [
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+      "neetcode_url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+      "leetcode_url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    }
+  ],
+  "assessment": {
+    "company": "JPMorgan Chase",
+    "company_id": "j-p-morgan",
+    "label": "HackerRank OA",
+    "date": null,
+    "date_label": "no sit-by date given",
+    "in_days": null,
+    "due_label": "still to sit",
+    "note": "Cognitive section as well as the coding — do a couple of timed numerical / logical reps before sitting it, and check the invite email for a time limit.",
+    "platform": "HackerRank",
+    "style": "HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.",
+    "prep_notes": "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [],
+    "tagged_total": 81,
+    "evidence_thin": false,
+    "problems": [
+      {
+        "name": "Two Sum",
+        "slug": "two-sum",
+        "neetcode_slug": "two-integer-sum",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Easy",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/two-integer-sum",
+        "neetcode_url": "https://neetcode.io/problems/two-integer-sum",
+        "leetcode_url": "https://leetcode.com/problems/two-sum/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Valid Anagram",
+        "slug": "valid-anagram",
+        "neetcode_slug": "is-anagram",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Easy",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/is-anagram",
+        "neetcode_url": "https://neetcode.io/problems/is-anagram",
+        "leetcode_url": "https://leetcode.com/problems/valid-anagram/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Best Time to Buy and Sell Stock",
+        "slug": "best-time-to-buy-and-sell-stock",
+        "neetcode_slug": "buy-and-sell-crypto",
+        "topic": "Sliding Window",
+        "difficulty": "Easy",
+        "patterns": [
+          "sliding-window"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/buy-and-sell-crypto",
+        "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Valid Parentheses",
+        "slug": "valid-parentheses",
+        "neetcode_slug": "validate-parentheses",
+        "topic": "Stack",
+        "difficulty": "Easy",
+        "patterns": [
+          "stack",
+          "monotonic-stack"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/validate-parentheses",
+        "neetcode_url": "https://neetcode.io/problems/validate-parentheses",
+        "leetcode_url": "https://leetcode.com/problems/valid-parentheses/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Group Anagrams",
+        "slug": "group-anagrams",
+        "neetcode_slug": "anagram-groups",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Medium",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/anagram-groups",
+        "neetcode_url": "https://neetcode.io/problems/anagram-groups",
+        "leetcode_url": "https://leetcode.com/problems/group-anagrams/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Longest Substring Without Repeating Characters",
+        "slug": "longest-substring-without-repeating-characters",
+        "neetcode_slug": "longest-substring-without-duplicates",
+        "topic": "Sliding Window",
+        "difficulty": "Medium",
+        "patterns": [
+          "sliding-window"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+        "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+        "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Button with Longest Push Time",
+        "slug": "button-with-longest-push-time",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/button-with-longest-push-time/",
+        "neetcode_url": "https://leetcode.com/problems/button-with-longest-push-time/",
+        "leetcode_url": "https://leetcode.com/problems/button-with-longest-push-time/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Check if Number Has Equal Digit Count and Digit Value",
+        "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+        "neetcode_url": "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+        "leetcode_url": "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Count Binary Substrings",
+        "slug": "count-binary-substrings",
+        "neetcode_slug": "",
+        "topic": "Two Pointers",
+        "difficulty": "Easy",
+        "patterns": [
+          "String"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/count-binary-substrings/",
+        "neetcode_url": "https://leetcode.com/problems/count-binary-substrings/",
+        "leetcode_url": "https://leetcode.com/problems/count-binary-substrings/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Determine Color of a Chessboard Square",
+        "slug": "determine-color-of-a-chessboard-square",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+        "neetcode_url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+        "leetcode_url": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Display Table of Food Orders in a Restaurant",
+        "slug": "display-table-of-food-orders-in-a-restaurant",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Medium",
+        "patterns": [],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/",
+        "neetcode_url": "https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/",
+        "leetcode_url": "https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Lexicographically Smallest String After Applying Operations",
+        "slug": "lexicographically-smallest-string-after-applying-operations",
+        "neetcode_slug": "",
+        "topic": "String",
+        "difficulty": "Medium",
+        "patterns": [
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Enumeration"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/",
+        "neetcode_url": "https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/",
+        "leetcode_url": "https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Lexicographically Smallest String After a Swap",
+        "slug": "lexicographically-smallest-string-after-a-swap",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/",
+        "neetcode_url": "https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/",
+        "leetcode_url": "https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Maximum Number of Points From Grid Queries",
+        "slug": "maximum-number-of-points-from-grid-queries",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Hard",
+        "patterns": [
+          "Two Pointers",
+          "Breadth-First Search",
+          "Union-Find",
+          "Sorting",
+          "Heap (Priority Queue)",
+          "Matrix"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+        "neetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+        "leetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Absolute Difference",
+        "slug": "minimum-absolute-difference",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Sorting"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/minimum-absolute-difference/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-absolute-difference/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-absolute-difference/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Swaps to Make Strings Equal",
+        "slug": "minimum-swaps-to-make-strings-equal",
+        "neetcode_slug": "",
+        "topic": "Math",
+        "difficulty": "Medium",
+        "patterns": [
+          "String",
+          "Greedy"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Reverse Odd Levels of Binary Tree",
+        "slug": "reverse-odd-levels-of-binary-tree",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Medium",
+        "patterns": [],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/",
+        "neetcode_url": "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/",
+        "leetcode_url": "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Rotate Image",
+        "slug": "rotate-image",
+        "neetcode_slug": "rotate-matrix",
+        "topic": "Math & Geometry",
+        "difficulty": "Medium",
+        "patterns": [
+          "math",
+          "matrix",
+          "simulation"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/rotate-matrix",
+        "neetcode_url": "https://neetcode.io/problems/rotate-matrix",
+        "leetcode_url": "https://leetcode.com/problems/rotate-image/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Divide Players Into Teams of Equal Skill",
+        "slug": "divide-players-into-teams-of-equal-skill",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Hash Table",
+          "Two Pointers",
+          "Sorting"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/",
+        "neetcode_url": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/",
+        "leetcode_url": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find Resultant Array After Removing Anagrams",
+        "slug": "find-resultant-array-after-removing-anagrams",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Hash Table",
+          "String",
+          "Sorting"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+        "neetcode_url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+        "leetcode_url": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Merge Intervals",
+        "slug": "merge-intervals",
+        "neetcode_slug": "merge-intervals",
+        "topic": "Intervals",
+        "difficulty": "Medium",
+        "patterns": [
+          "intervals",
+          "sorting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/merge-intervals",
+        "neetcode_url": "https://neetcode.io/problems/merge-intervals",
+        "leetcode_url": "https://leetcode.com/problems/merge-intervals/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Number of Steps to Make Two Strings Anagram",
+        "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+        "neetcode_slug": "",
+        "topic": "Hash Table",
+        "difficulty": "Medium",
+        "patterns": [
+          "String",
+          "Counting"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Operations to Make All Array Elements Equal",
+        "slug": "minimum-operations-to-make-all-array-elements-equal",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Binary Search",
+          "Sorting",
+          "Prefix Sum"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Suffix Flips",
+        "slug": "minimum-suffix-flips",
+        "neetcode_slug": "",
+        "topic": "String",
+        "difficulty": "Medium",
+        "patterns": [
+          "Greedy"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/minimum-suffix-flips/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-suffix-flips/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-suffix-flips/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Reaching Points",
+        "slug": "reaching-points",
+        "neetcode_slug": "",
+        "topic": "Math",
+        "difficulty": "Hard",
+        "patterns": [
+          "Euclidean Algorithm",
+          "Greatest Common Divisor"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/reaching-points/",
+        "neetcode_url": "https://leetcode.com/problems/reaching-points/",
+        "leetcode_url": "https://leetcode.com/problems/reaching-points/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "slug": "sliding-window-maximum",
+        "neetcode_slug": "sliding-window-maximum",
+        "topic": "Sliding Window",
+        "difficulty": "Hard",
+        "patterns": [
+          "sliding-window"
+        ],
+        "est_minutes": 45,
+        "url": "https://neetcode.io/problems/sliding-window-maximum",
+        "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+        "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Climbing Stairs",
+        "slug": "climbing-stairs",
+        "neetcode_slug": "climbing-stairs",
+        "topic": "1-D Dynamic Programming",
+        "difficulty": "Easy",
+        "patterns": [
+          "dp",
+          "memoization"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/climbing-stairs",
+        "neetcode_url": "https://neetcode.io/problems/climbing-stairs",
+        "leetcode_url": "https://leetcode.com/problems/climbing-stairs/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Happy Number",
+        "slug": "happy-number",
+        "neetcode_slug": "non-cyclical-number",
+        "topic": "Math & Geometry",
+        "difficulty": "Easy",
+        "patterns": [
+          "math",
+          "matrix",
+          "simulation"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/non-cyclical-number",
+        "neetcode_url": "https://neetcode.io/problems/non-cyclical-number",
+        "leetcode_url": "https://leetcode.com/problems/happy-number/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "LRU Cache",
+        "slug": "lru-cache",
+        "neetcode_slug": "lru-cache",
+        "topic": "Linked List",
+        "difficulty": "Medium",
+        "patterns": [
+          "linked-list",
+          "fast-slow-pointers"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/lru-cache",
+        "neetcode_url": "https://neetcode.io/problems/lru-cache",
+        "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Longest Palindromic Substring",
+        "slug": "longest-palindromic-substring",
+        "neetcode_slug": "longest-palindromic-substring",
+        "topic": "1-D Dynamic Programming",
+        "difficulty": "Medium",
+        "patterns": [
+          "dp",
+          "memoization"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/longest-palindromic-substring",
+        "neetcode_url": "https://neetcode.io/problems/longest-palindromic-substring",
+        "leetcode_url": "https://leetcode.com/problems/longest-palindromic-substring/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Maximum Product of Two Elements in an Array",
+        "slug": "maximum-product-of-two-elements-in-an-array",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Sorting",
+          "Heap (Priority Queue)"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
+        "neetcode_url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
+        "leetcode_url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Time to Type Word Using Special Typewriter",
+        "slug": "minimum-time-to-type-word-using-special-typewriter",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Numbers With Repeated Digits",
+        "slug": "numbers-with-repeated-digits",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Hard",
+        "patterns": [],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+        "neetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+        "leetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Rearrange Array to Maximize Prefix Score",
+        "slug": "rearrange-array-to-maximize-prefix-score",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Greedy",
+          "Sorting",
+          "Prefix Sum"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/",
+        "neetcode_url": "https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/",
+        "leetcode_url": "https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Sort Integers by The Number of 1 Bits",
+        "slug": "sort-integers-by-the-number-of-1-bits",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Bit Manipulation",
+          "Sorting",
+          "Counting"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+        "neetcode_url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+        "leetcode_url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Taking Maximum Energy From the Mystic Dungeon",
+        "slug": "taking-maximum-energy-from-the-mystic-dungeon",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Dynamic Programming",
+          "Prefix Sum"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/",
+        "neetcode_url": "https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/",
+        "leetcode_url": "https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Best Time to Buy and Sell Stock II",
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Dynamic Programming",
+          "Greedy"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "neetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Coin Change",
+        "slug": "coin-change",
+        "neetcode_slug": "coin-change",
+        "topic": "1-D Dynamic Programming",
+        "difficulty": "Medium",
+        "patterns": [
+          "dp",
+          "memoization"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/coin-change",
+        "neetcode_url": "https://neetcode.io/problems/coin-change",
+        "leetcode_url": "https://leetcode.com/problems/coin-change/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Distinct Subsequences",
+        "slug": "distinct-subsequences",
+        "neetcode_slug": "count-subsequences",
+        "topic": "2-D Dynamic Programming",
+        "difficulty": "Hard",
+        "patterns": [
+          "dp",
+          "grid-dp"
+        ],
+        "est_minutes": 45,
+        "url": "https://neetcode.io/problems/count-subsequences",
+        "neetcode_url": "https://neetcode.io/problems/count-subsequences",
+        "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Fibonacci Number",
+        "slug": "fibonacci-number",
+        "neetcode_slug": "",
+        "topic": "Math",
+        "difficulty": "Easy",
+        "patterns": [
+          "Dynamic Programming",
+          "Recursion",
+          "Memoization"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/fibonacci-number/",
+        "neetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+        "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find Median from Data Stream",
+        "slug": "find-median-from-data-stream",
+        "neetcode_slug": "find-median-in-a-data-stream",
+        "topic": "Heap / Priority Queue",
+        "difficulty": "Hard",
+        "patterns": [
+          "heap"
+        ],
+        "est_minutes": 45,
+        "url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+        "neetcode_url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+        "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Fizz Buzz",
+        "slug": "fizz-buzz",
+        "neetcode_slug": "",
+        "topic": "Math",
+        "difficulty": "Easy",
+        "patterns": [
+          "String",
+          "Simulation"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/fizz-buzz/",
+        "neetcode_url": "https://leetcode.com/problems/fizz-buzz/",
+        "leetcode_url": "https://leetcode.com/problems/fizz-buzz/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Generate Parentheses",
+        "slug": "generate-parentheses",
+        "neetcode_slug": "generate-parentheses",
+        "topic": "Stack",
+        "difficulty": "Medium",
+        "patterns": [
+          "stack",
+          "monotonic-stack"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/generate-parentheses",
+        "neetcode_url": "https://neetcode.io/problems/generate-parentheses",
+        "leetcode_url": "https://leetcode.com/problems/generate-parentheses/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Get Equal Substrings Within Budget",
+        "slug": "get-equal-substrings-within-budget",
+        "neetcode_slug": "",
+        "topic": "String",
+        "difficulty": "Medium",
+        "patterns": [
+          "Binary Search",
+          "Sliding Window",
+          "Prefix Sum"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/get-equal-substrings-within-budget/",
+        "neetcode_url": "https://leetcode.com/problems/get-equal-substrings-within-budget/",
+        "leetcode_url": "https://leetcode.com/problems/get-equal-substrings-within-budget/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Intersection of Two Arrays",
+        "slug": "intersection-of-two-arrays",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Hash Table",
+          "Two Pointers",
+          "Binary Search",
+          "Sorting"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/intersection-of-two-arrays/",
+        "neetcode_url": "https://leetcode.com/problems/intersection-of-two-arrays/",
+        "leetcode_url": "https://leetcode.com/problems/intersection-of-two-arrays/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Cost to Make Array Equal",
+        "slug": "minimum-cost-to-make-array-equal",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Hard",
+        "patterns": [
+          "Binary Search",
+          "Greedy",
+          "Sorting",
+          "Prefix Sum"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Number Complement",
+        "slug": "number-complement",
+        "neetcode_slug": "",
+        "topic": "Bit Manipulation",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/number-complement/",
+        "neetcode_url": "https://leetcode.com/problems/number-complement/",
+        "leetcode_url": "https://leetcode.com/problems/number-complement/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Number of Ways to Split Array",
+        "slug": "number-of-ways-to-split-array",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Prefix Sum"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/number-of-ways-to-split-array/",
+        "neetcode_url": "https://leetcode.com/problems/number-of-ways-to-split-array/",
+        "leetcode_url": "https://leetcode.com/problems/number-of-ways-to-split-array/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Top K Frequent Elements",
+        "slug": "top-k-frequent-elements",
+        "neetcode_slug": "top-k-elements-in-list",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Medium",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/top-k-elements-in-list",
+        "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+        "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Binary Tree Right Side View",
+        "slug": "binary-tree-right-side-view",
+        "neetcode_slug": "binary-tree-right-side-view",
+        "topic": "Trees",
+        "difficulty": "Medium",
+        "patterns": [
+          "dfs",
+          "bfs",
+          "recursion"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/binary-tree-right-side-view",
+        "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Check Whether Two Strings are Almost Equivalent",
+        "slug": "check-whether-two-strings-are-almost-equivalent",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
+        "neetcode_url": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
+        "leetcode_url": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Combination Sum",
+        "slug": "combination-sum",
+        "neetcode_slug": "combination-target-sum",
+        "topic": "Backtracking",
+        "difficulty": "Medium",
+        "patterns": [
+          "backtracking",
+          "recursion"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/combination-target-sum",
+        "neetcode_url": "https://neetcode.io/problems/combination-target-sum",
+        "leetcode_url": "https://leetcode.com/problems/combination-sum/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Container With Most Water",
+        "slug": "container-with-most-water",
+        "neetcode_slug": "max-water-container",
+        "topic": "Two Pointers",
+        "difficulty": "Medium",
+        "patterns": [
+          "two-pointers"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/max-water-container",
+        "neetcode_url": "https://neetcode.io/problems/max-water-container",
+        "leetcode_url": "https://leetcode.com/problems/container-with-most-water/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Contains Duplicate",
+        "slug": "contains-duplicate",
+        "neetcode_slug": "duplicate-integer",
+        "topic": "Arrays & Hashing",
+        "difficulty": "Easy",
+        "patterns": [
+          "hashing",
+          "prefix",
+          "counting"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/duplicate-integer",
+        "neetcode_url": "https://neetcode.io/problems/duplicate-integer",
+        "leetcode_url": "https://leetcode.com/problems/contains-duplicate/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Daily Temperatures",
+        "slug": "daily-temperatures",
+        "neetcode_slug": "daily-temperatures",
+        "topic": "Stack",
+        "difficulty": "Medium",
+        "patterns": [
+          "stack",
+          "monotonic-stack"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/daily-temperatures",
+        "neetcode_url": "https://neetcode.io/problems/daily-temperatures",
+        "leetcode_url": "https://leetcode.com/problems/daily-temperatures/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Degree of an Array",
+        "slug": "degree-of-an-array",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Hash Table"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/degree-of-an-array/",
+        "neetcode_url": "https://leetcode.com/problems/degree-of-an-array/",
+        "leetcode_url": "https://leetcode.com/problems/degree-of-an-array/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find Common Characters",
+        "slug": "find-common-characters",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Hash Table",
+          "String"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/find-common-characters/",
+        "neetcode_url": "https://leetcode.com/problems/find-common-characters/",
+        "leetcode_url": "https://leetcode.com/problems/find-common-characters/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find Occurrences of an Element in an Array",
+        "slug": "find-occurrences-of-an-element-in-an-array",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Medium",
+        "patterns": [],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/",
+        "neetcode_url": "https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/",
+        "leetcode_url": "https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find Peak Element",
+        "slug": "find-peak-element",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Binary Search"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/find-peak-element/",
+        "neetcode_url": "https://leetcode.com/problems/find-peak-element/",
+        "leetcode_url": "https://leetcode.com/problems/find-peak-element/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find The First Player to win K Games in a Row",
+        "slug": "find-the-first-player-to-win-k-games-in-a-row",
+        "neetcode_slug": "",
+        "topic": "Mixed",
+        "difficulty": "Medium",
+        "patterns": [],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/",
+        "neetcode_url": "https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/",
+        "leetcode_url": "https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Find the Winner of an Array Game",
+        "slug": "find-the-winner-of-an-array-game",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Simulation"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/find-the-winner-of-an-array-game/",
+        "neetcode_url": "https://leetcode.com/problems/find-the-winner-of-an-array-game/",
+        "leetcode_url": "https://leetcode.com/problems/find-the-winner-of-an-array-game/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Integer to Roman",
+        "slug": "integer-to-roman",
+        "neetcode_slug": "",
+        "topic": "Hash Table",
+        "difficulty": "Medium",
+        "patterns": [
+          "Math",
+          "String"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/integer-to-roman/",
+        "neetcode_url": "https://leetcode.com/problems/integer-to-roman/",
+        "leetcode_url": "https://leetcode.com/problems/integer-to-roman/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Last Stone Weight",
+        "slug": "last-stone-weight",
+        "neetcode_slug": "last-stone-weight",
+        "topic": "Heap / Priority Queue",
+        "difficulty": "Easy",
+        "patterns": [
+          "heap"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/last-stone-weight",
+        "neetcode_url": "https://neetcode.io/problems/last-stone-weight",
+        "leetcode_url": "https://leetcode.com/problems/last-stone-weight/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Letter Combinations of a Phone Number",
+        "slug": "letter-combinations-of-a-phone-number",
+        "neetcode_slug": "combinations-of-a-phone-number",
+        "topic": "Backtracking",
+        "difficulty": "Medium",
+        "patterns": [
+          "backtracking",
+          "recursion"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/combinations-of-a-phone-number",
+        "neetcode_url": "https://neetcode.io/problems/combinations-of-a-phone-number",
+        "leetcode_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Maximum Subarray",
+        "slug": "maximum-subarray",
+        "neetcode_slug": "maximum-subarray",
+        "topic": "Greedy",
+        "difficulty": "Medium",
+        "patterns": [
+          "greedy"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/maximum-subarray",
+        "neetcode_url": "https://neetcode.io/problems/maximum-subarray",
+        "leetcode_url": "https://leetcode.com/problems/maximum-subarray/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum Moves to Equal Array Elements",
+        "slug": "minimum-moves-to-equal-array-elements",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Math"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Minimum String Length After Removing Substrings",
+        "slug": "minimum-string-length-after-removing-substrings",
+        "neetcode_slug": "",
+        "topic": "String",
+        "difficulty": "Easy",
+        "patterns": [
+          "Stack",
+          "Simulation"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/minimum-string-length-after-removing-substrings/",
+        "neetcode_url": "https://leetcode.com/problems/minimum-string-length-after-removing-substrings/",
+        "leetcode_url": "https://leetcode.com/problems/minimum-string-length-after-removing-substrings/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Non-overlapping Intervals",
+        "slug": "non-overlapping-intervals",
+        "neetcode_slug": "non-overlapping-intervals",
+        "topic": "Intervals",
+        "difficulty": "Medium",
+        "patterns": [
+          "intervals",
+          "sorting"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/non-overlapping-intervals",
+        "neetcode_url": "https://neetcode.io/problems/non-overlapping-intervals",
+        "leetcode_url": "https://leetcode.com/problems/non-overlapping-intervals/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Palindrome Number",
+        "slug": "palindrome-number",
+        "neetcode_slug": "",
+        "topic": "Math",
+        "difficulty": "Easy",
+        "patterns": [],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/palindrome-number/",
+        "neetcode_url": "https://leetcode.com/problems/palindrome-number/",
+        "leetcode_url": "https://leetcode.com/problems/palindrome-number/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Permutations",
+        "slug": "permutations",
+        "neetcode_slug": "permutations",
+        "topic": "Backtracking",
+        "difficulty": "Medium",
+        "patterns": [
+          "backtracking",
+          "recursion"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/permutations",
+        "neetcode_url": "https://neetcode.io/problems/permutations",
+        "leetcode_url": "https://leetcode.com/problems/permutations/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Reverse Linked List",
+        "slug": "reverse-linked-list",
+        "neetcode_slug": "reverse-a-linked-list",
+        "topic": "Linked List",
+        "difficulty": "Easy",
+        "patterns": [
+          "linked-list",
+          "fast-slow-pointers"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/reverse-a-linked-list",
+        "neetcode_url": "https://neetcode.io/problems/reverse-a-linked-list",
+        "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Roman to Integer",
+        "slug": "roman-to-integer",
+        "neetcode_slug": "",
+        "topic": "Hash Table",
+        "difficulty": "Easy",
+        "patterns": [
+          "Math",
+          "String"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/roman-to-integer/",
+        "neetcode_url": "https://leetcode.com/problems/roman-to-integer/",
+        "leetcode_url": "https://leetcode.com/problems/roman-to-integer/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Sell Diminishing-Valued Colored Balls",
+        "slug": "sell-diminishing-valued-colored-balls",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Math",
+          "Binary Search",
+          "Greedy",
+          "Sorting",
+          "Heap (Priority Queue)"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/sell-diminishing-valued-colored-balls/",
+        "neetcode_url": "https://leetcode.com/problems/sell-diminishing-valued-colored-balls/",
+        "leetcode_url": "https://leetcode.com/problems/sell-diminishing-valued-colored-balls/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Set Matrix Zeroes",
+        "slug": "set-matrix-zeroes",
+        "neetcode_slug": "set-zeroes-in-matrix",
+        "topic": "Math & Geometry",
+        "difficulty": "Medium",
+        "patterns": [
+          "math",
+          "matrix",
+          "simulation"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/set-zeroes-in-matrix",
+        "neetcode_url": "https://neetcode.io/problems/set-zeroes-in-matrix",
+        "leetcode_url": "https://leetcode.com/problems/set-matrix-zeroes/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Shuffle an Array",
+        "slug": "shuffle-an-array",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Math",
+          "Design",
+          "Randomized"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/shuffle-an-array/",
+        "neetcode_url": "https://leetcode.com/problems/shuffle-an-array/",
+        "leetcode_url": "https://leetcode.com/problems/shuffle-an-array/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Spiral Matrix",
+        "slug": "spiral-matrix",
+        "neetcode_slug": "spiral-matrix",
+        "topic": "Math & Geometry",
+        "difficulty": "Medium",
+        "patterns": [
+          "math",
+          "matrix",
+          "simulation"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/spiral-matrix",
+        "neetcode_url": "https://neetcode.io/problems/spiral-matrix",
+        "leetcode_url": "https://leetcode.com/problems/spiral-matrix/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Subarray Sums Divisible by K",
+        "slug": "subarray-sums-divisible-by-k",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Hash Table",
+          "Prefix Sum"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+        "neetcode_url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+        "leetcode_url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Sudoku Solver",
+        "slug": "sudoku-solver",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Hard",
+        "patterns": [
+          "Hash Table",
+          "Backtracking",
+          "Matrix",
+          "Algorithm X",
+          "Dancing Links"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/sudoku-solver/",
+        "neetcode_url": "https://leetcode.com/problems/sudoku-solver/",
+        "leetcode_url": "https://leetcode.com/problems/sudoku-solver/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Two Sum II - Input Array Is Sorted",
+        "slug": "two-sum-ii-input-array-is-sorted",
+        "neetcode_slug": "two-integer-sum-ii",
+        "topic": "Two Pointers",
+        "difficulty": "Medium",
+        "patterns": [
+          "two-pointers"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/two-integer-sum-ii",
+        "neetcode_url": "https://neetcode.io/problems/two-integer-sum-ii",
+        "leetcode_url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      }
+    ],
+    "problems_done": 0,
+    "countdown": [],
+    "today_task": "Drill HackerRank style on this company's own problems, below — 25 minutes each, function-signature style. The invite set no deadline, so book it yourself once the first few land rather than leaving it open."
+  },
+  "markdown": "### Practice — 2026-09-12\n**JPMorgan Chase HackerRank OA still to sit** (no sit-by date given) — HackerRank. Drill HackerRank style on this company's own problems, below — 25 minutes each, function-signature style. The invite set no deadline, so book it yourself once the first few land rather than leaving it open.\n**Focus job:** J.P. Morgan — 2027 Software Engineer Program (closes in 50 d). Assessment: HackerRank — HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.\n- [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) · Medium · Hash Table · ~25 min · asked by this company (75% frequency)\n- [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) · Easy · Two Pointers · ~12 min · asked by this company (88% frequency)\n- [Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/) · Medium · Array · ~25 min · asked by this company (75% frequency)\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: The single most urgent thing this week is unchanged and getting more expensive: Barclays' 2027 Technology Graduate Programme now closes in 13 days (25 Sep) — still the nearest deadline of any target, ahead of BlackRock's 18-day outcome-pending application and JPMorgan's 50-day Software Engineer Program / Data & AI closings — so if the CV and cover letter aren't submitted yet, that has to move today rather than slip further. `state.json` still shows zero completions across all sixteen days since 2026-08-28 — streak 0, `curriculum_cursor` 0, `last_completed_date` null — so stay strictly on fundamentals (Arrays & Hashing, Two Pointers, Stack, easy/low-medium), which covers both Barclays' own HackerRank-style OA and JPMorgan's still-pending, still-undated Cognitive + Coding invite. No newly opened target roles today — Trackr's live fetch was blocked again (proxy 403 on all four feeds, prior snapshot kept) — the only new listings anywhere in the feed (Lloyds Banking Group x2, Qube RT x2) are all non-target. Solve and log at least two problems today — Two Sum and Valid Parentheses sit on both Barclays' and JPMorgan's signature lists — while getting the Barclays application itself finished before its 25 Sep close.\n> JPMorgan Chase HackerRank OA is still to sit and the invite gave no deadline, so there is no countdown — practice is pinned to it until you clear the `assessment_*` lines in targets.yaml. Unlike a dated one this never lapses on its own, so delete it the day you sit the test.\n> Cognitive section as well as the coding — do a couple of timed numerical / logical reps before sitting it, and check the invite email for a time limit.\n> Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+}
