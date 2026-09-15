@@ -1,0 +1,238 @@
+{
+  "date": "2026-09-15",
+  "mode": "targeted",
+  "focus": {
+    "company": "Barclays",
+    "role": "2027 Technology Graduate Programme",
+    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays?q=%22technology%22&workerSubType=6139d325cdcc1001a72ce8fbe2290000&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+    "closes_in_days": 10,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "Online coding assessment (2 problems, function-signature style) + situational judgement test, then a video/strengths interview.",
+    "prep_notes": "Low-to-mid difficulty; correctness and hidden test cases over cleverness. Do the SJT honestly and consistently.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Stack",
+      "Linked List",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        9
+      ],
+      [
+        "String",
+        6
+      ],
+      [
+        "Hash Table",
+        4
+      ],
+      [
+        "Matrix",
+        2
+      ],
+      [
+        "Simulation",
+        2
+      ],
+      [
+        "Greedy",
+        2
+      ],
+      [
+        "Depth-First Search",
+        2
+      ],
+      [
+        "Trie",
+        2
+      ]
+    ],
+    "tagged_total": 20,
+    "evidence_thin": true,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Count Submatrices with Top-Left Element and Sum Less Than k",
+      "slug": "count-submatrices-with-top-left-element-and-sum-less-than-k",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Matrix",
+        "Prefix Sum"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/",
+      "neetcode_url": "https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/",
+      "leetcode_url": "https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (100% frequency)"
+    },
+    {
+      "name": "Valid Palindrome",
+      "slug": "valid-palindrome",
+      "neetcode_slug": "is-palindrome",
+      "topic": "Two Pointers",
+      "difficulty": "Easy",
+      "patterns": [
+        "two-pointers"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/is-palindrome",
+      "neetcode_url": "https://neetcode.io/problems/is-palindrome",
+      "leetcode_url": "https://leetcode.com/problems/valid-palindrome/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Double Modular Exponentiation",
+      "slug": "double-modular-exponentiation",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Math",
+        "Simulation"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/double-modular-exponentiation/",
+      "neetcode_url": "https://leetcode.com/problems/double-modular-exponentiation/",
+      "leetcode_url": "https://leetcode.com/problems/double-modular-exponentiation/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (100% frequency)"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: Supersedes this morning's section below, which was written before the test was sat and still calls the JPMorgan OA pending. **JPMorgan Chase's HackerRank Cognitive + Coding OA is done — sat today, 15 Sep.** It was the undated invite from 8 Sep, so nothing would have cleared it automatically; its `assessment_*` lines are deleted from `targets.yaml`, which ends the +60 pin, the coach's pinned focus and the digest subject line. The application stays live (Software Engineer Program and Data & AI both close 1 Nov, 47 days) and the HireVue video is the next stage, so no OA prep is owed there now — outcome pending, same posture as BlackRock's CodeVue. That leaves **Barclays' 2027 Technology Graduate Programme, closing 25 Sep in 10 days**, as the only real clock on the board and the coach's focus: it wants a CV and cover letter submitted, not more drilling, so that is today's actual job. `state.json` still shows nineteen straight days since 2026-08-28 with zero completions — streak 0, `curriculum_cursor` 0, `last_completed_date` null — which now means two real assessments sat with no logged reps behind either, so stay strictly on fundamentals (Arrays & Hashing, Two Pointers, Sliding Window, Stack, easy/low-medium), which is also Barclays' own low-to-mid HackerRank range. Note Barclays has only 20 LeetCode-tagged problems, below `THIN_TAG_COUNT` — aim with it, don't treat it as a pattern. Solve and log at least two today: Two Sum and Valid Parentheses sit on Barclays' signature list.",
+    "Only 20 LeetCode problems are tagged Barclays — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.",
+    "Low-to-mid difficulty; correctness and hidden test cases over cleverness. Do the SJT honestly and consistently."
+  ],
+  "extra_problems": [
+    {
+      "name": "Lexicographically Smallest Generated String",
+      "slug": "lexicographically-smallest-generated-string",
+      "neetcode_slug": "",
+      "topic": "String",
+      "difficulty": "Hard",
+      "patterns": [
+        "Greedy",
+        "String Matching"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+      "neetcode_url": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+      "leetcode_url": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (100% frequency)"
+    },
+    {
+      "name": "Mark Elements on Array by Performing Queries",
+      "slug": "mark-elements-on-array-by-performing-queries",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Hash Table",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Simulation"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/",
+      "neetcode_url": "https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/",
+      "leetcode_url": "https://leetcode.com/problems/mark-elements-on-array-by-performing-queries/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (100% frequency)"
+    },
+    {
+      "name": "Second Highest Salary",
+      "slug": "second-highest-salary",
+      "neetcode_slug": "",
+      "topic": "Database",
+      "difficulty": "Medium",
+      "patterns": [],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/second-highest-salary/",
+      "neetcode_url": "https://leetcode.com/problems/second-highest-salary/",
+      "leetcode_url": "https://leetcode.com/problems/second-highest-salary/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (67% frequency)"
+    },
+    {
+      "name": "Merge Two Sorted Lists",
+      "slug": "merge-two-sorted-lists",
+      "neetcode_slug": "merge-two-sorted-linked-lists",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "patterns": [
+        "linked-list",
+        "fast-slow-pointers"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/merge-two-sorted-linked-lists",
+      "neetcode_url": "https://neetcode.io/problems/merge-two-sorted-linked-lists",
+      "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Reverse Linked List",
+      "slug": "reverse-linked-list",
+      "neetcode_slug": "reverse-a-linked-list",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "patterns": [
+        "linked-list",
+        "fast-slow-pointers"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/reverse-a-linked-list",
+      "neetcode_url": "https://neetcode.io/problems/reverse-a-linked-list",
+      "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Furthest Point From Origin",
+      "slug": "furthest-point-from-origin",
+      "neetcode_slug": "",
+      "topic": "String",
+      "difficulty": "Easy",
+      "patterns": [
+        "Counting"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/furthest-point-from-origin/",
+      "neetcode_url": "https://leetcode.com/problems/furthest-point-from-origin/",
+      "leetcode_url": "https://leetcode.com/problems/furthest-point-from-origin/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (100% frequency)"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-09-15\n**Focus job:** Barclays — 2027 Technology Graduate Programme (closes in 10 d). Assessment: HackerRank — Online coding assessment (2 problems, function-signature style) + situational judgement test, then a video/strengths interview.\n- [Count Submatrices with Top-Left Element and Sum Less Than k](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) · Medium · Array · ~25 min · asked by this company (100% frequency)\n- [Valid Palindrome](https://neetcode.io/problems/is-palindrome) · Easy · Two Pointers · ~12 min · asked by this company\n- [Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/) · Medium · Array · ~25 min · asked by this company (100% frequency)\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: Supersedes this morning's section below, which was written before the test was sat and still calls the JPMorgan OA pending. **JPMorgan Chase's HackerRank Cognitive + Coding OA is done — sat today, 15 Sep.** It was the undated invite from 8 Sep, so nothing would have cleared it automatically; its `assessment_*` lines are deleted from `targets.yaml`, which ends the +60 pin, the coach's pinned focus and the digest subject line. The application stays live (Software Engineer Program and Data & AI both close 1 Nov, 47 days) and the HireVue video is the next stage, so no OA prep is owed there now — outcome pending, same posture as BlackRock's CodeVue. That leaves **Barclays' 2027 Technology Graduate Programme, closing 25 Sep in 10 days**, as the only real clock on the board and the coach's focus: it wants a CV and cover letter submitted, not more drilling, so that is today's actual job. `state.json` still shows nineteen straight days since 2026-08-28 with zero completions — streak 0, `curriculum_cursor` 0, `last_completed_date` null — which now means two real assessments sat with no logged reps behind either, so stay strictly on fundamentals (Arrays & Hashing, Two Pointers, Sliding Window, Stack, easy/low-medium), which is also Barclays' own low-to-mid HackerRank range. Note Barclays has only 20 LeetCode-tagged problems, below `THIN_TAG_COUNT` — aim with it, don't treat it as a pattern. Solve and log at least two today: Two Sum and Valid Parentheses sit on Barclays' signature list.\n> Only 20 LeetCode problems are tagged Barclays — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.\n> Low-to-mid difficulty; correctness and hidden test cases over cleverness. Do the SJT honestly and consistently."
+}
