@@ -1,0 +1,245 @@
+{
+  "date": "2026-09-19",
+  "mode": "targeted",
+  "focus": {
+    "company": "Barclays",
+    "role": "2027 Technology Graduate Programme",
+    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays?q=%22technology%22&workerSubType=6139d325cdcc1001a72ce8fbe2290000&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+    "closes_in_days": 6,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "Online coding assessment (2 problems, function-signature style) + situational judgement test, then a video/strengths interview.",
+    "prep_notes": "Low-to-mid difficulty; correctness and hidden test cases over cleverness. Do the SJT honestly and consistently.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Stack",
+      "Linked List",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        9
+      ],
+      [
+        "String",
+        6
+      ],
+      [
+        "Hash Table",
+        4
+      ],
+      [
+        "Matrix",
+        2
+      ],
+      [
+        "Simulation",
+        2
+      ],
+      [
+        "Greedy",
+        2
+      ],
+      [
+        "Depth-First Search",
+        2
+      ],
+      [
+        "Trie",
+        2
+      ]
+    ],
+    "tagged_total": 20,
+    "evidence_thin": true,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Minimum Number of Days to Make m Bouquets",
+      "slug": "minimum-number-of-days-to-make-m-bouquets",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Binary Search"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (53% frequency)"
+    },
+    {
+      "name": "Isomorphic Strings",
+      "slug": "isomorphic-strings",
+      "neetcode_slug": "",
+      "topic": "Hash Table",
+      "difficulty": "Easy",
+      "patterns": [
+        "String"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/isomorphic-strings/",
+      "neetcode_url": "https://leetcode.com/problems/isomorphic-strings/",
+      "leetcode_url": "https://leetcode.com/problems/isomorphic-strings/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Word Break",
+      "slug": "word-break",
+      "neetcode_slug": "word-break",
+      "topic": "1-D Dynamic Programming",
+      "difficulty": "Medium",
+      "patterns": [
+        "dp",
+        "memoization"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/word-break",
+      "neetcode_url": "https://neetcode.io/problems/word-break",
+      "leetcode_url": "https://leetcode.com/problems/word-break/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Barclays's topic mix"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: Barclays' 2027 Technology Graduate Programme now closes in 6 days (25 Sep) — the tightest deadline of any target, ahead of BlackRock's 11-day outcome-pending Full-Time Analyst Program (CodeVue already sat, no OA prep owed there) and JPMorgan's 43-day Software Engineer Program / Data & AI closings — so a submitted CV and cover letter still outrank more OA reps today. `state.json` shows twenty-three straight days since 2026-08-28 with zero completions — streak 0, `curriculum_cursor` 0, `last_completed_date` null — despite three problems handed out every day, so stay strictly on fundamentals (Arrays & Hashing, Two Pointers, Sliding Window, Stack, easy/low-medium), which covers Barclays' own low-to-mid HackerRank OA directly. No newly opened target roles today — Trackr's live fetch was blocked again (proxy 403 on all four feeds, prior snapshot kept) — the seven new listings in the feed (CoreTech Security x3, BNY Mellon, KPMG x2, SilverTide) are all non-target. Solve and log at least two problems today — Two Sum and Valid Parentheses sit on Barclays' own signature list — because with Barclays now inside single digits, the zero-completion streak is the costlier gap left to close.",
+    "Only 20 LeetCode problems are tagged Barclays — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.",
+    "Low-to-mid difficulty; correctness and hidden test cases over cleverness. Do the SJT honestly and consistently."
+  ],
+  "extra_problems": [
+    {
+      "name": "Lexicographically Smallest Generated String",
+      "slug": "lexicographically-smallest-generated-string",
+      "neetcode_slug": "",
+      "topic": "String",
+      "difficulty": "Hard",
+      "patterns": [
+        "Greedy",
+        "String Matching"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+      "neetcode_url": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+      "leetcode_url": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (100% frequency)"
+    },
+    {
+      "name": "Longest Common Prefix",
+      "slug": "longest-common-prefix",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "patterns": [
+        "String",
+        "Trie"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/longest-common-prefix/",
+      "neetcode_url": "https://leetcode.com/problems/longest-common-prefix/",
+      "leetcode_url": "https://leetcode.com/problems/longest-common-prefix/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Next Greater Element I",
+      "slug": "next-greater-element-i",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "patterns": [
+        "Hash Table",
+        "Stack",
+        "Monotonic Stack"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/next-greater-element-i/",
+      "neetcode_url": "https://leetcode.com/problems/next-greater-element-i/",
+      "leetcode_url": "https://leetcode.com/problems/next-greater-element-i/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Palindrome Linked List",
+      "slug": "palindrome-linked-list",
+      "neetcode_slug": "",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Stack",
+        "Recursion"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/palindrome-linked-list/",
+      "neetcode_url": "https://leetcode.com/problems/palindrome-linked-list/",
+      "leetcode_url": "https://leetcode.com/problems/palindrome-linked-list/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Remove Boxes",
+      "slug": "remove-boxes",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Dynamic Programming",
+        "Memoization"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/remove-boxes/",
+      "neetcode_url": "https://leetcode.com/problems/remove-boxes/",
+      "leetcode_url": "https://leetcode.com/problems/remove-boxes/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (53% frequency)"
+    },
+    {
+      "name": "Word Break II",
+      "slug": "word-break-ii",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Hash Table",
+        "String",
+        "Dynamic Programming",
+        "Backtracking",
+        "Trie",
+        "Memoization"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/word-break-ii/",
+      "neetcode_url": "https://leetcode.com/problems/word-break-ii/",
+      "leetcode_url": "https://leetcode.com/problems/word-break-ii/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Barclays's topic mix"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-09-19\n**Focus job:** Barclays — 2027 Technology Graduate Programme (closes in 6 d). Assessment: HackerRank — Online coding assessment (2 problems, function-signature style) + situational judgement test, then a video/strengths interview.\n- [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) · Medium · Array · ~25 min · asked by this company (53% frequency)\n- [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) · Easy · Hash Table · ~12 min · asked by this company (62% frequency)\n- [Word Break](https://neetcode.io/problems/word-break) · Medium · 1-D Dynamic Programming · ~25 min · matches Barclays's topic mix\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: Barclays' 2027 Technology Graduate Programme now closes in 6 days (25 Sep) — the tightest deadline of any target, ahead of BlackRock's 11-day outcome-pending Full-Time Analyst Program (CodeVue already sat, no OA prep owed there) and JPMorgan's 43-day Software Engineer Program / Data & AI closings — so a submitted CV and cover letter still outrank more OA reps today. `state.json` shows twenty-three straight days since 2026-08-28 with zero completions — streak 0, `curriculum_cursor` 0, `last_completed_date` null — despite three problems handed out every day, so stay strictly on fundamentals (Arrays & Hashing, Two Pointers, Sliding Window, Stack, easy/low-medium), which covers Barclays' own low-to-mid HackerRank OA directly. No newly opened target roles today — Trackr's live fetch was blocked again (proxy 403 on all four feeds, prior snapshot kept) — the seven new listings in the feed (CoreTech Security x3, BNY Mellon, KPMG x2, SilverTide) are all non-target. Solve and log at least two problems today — Two Sum and Valid Parentheses sit on Barclays' own signature list — because with Barclays now inside single digits, the zero-completion streak is the costlier gap left to close.\n> Only 20 LeetCode problems are tagged Barclays — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.\n> Low-to-mid difficulty; correctness and hidden test cases over cleverness. Do the SJT honestly and consistently."
+}
