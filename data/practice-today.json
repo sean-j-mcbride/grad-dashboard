@@ -1,0 +1,692 @@
+{
+  "date": "2026-09-26",
+  "mode": "targeted",
+  "focus": {
+    "company": "Optiver",
+    "role": "Graduate Software Engineer",
+    "url": "https://grnh.se/2rr3ny0j2us",
+    "closes_in_days": null,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "Optiver Campus Test",
+    "style": "Campus Software Engineer Test 2026 (EUR): ONE coding question, ~90 minutes, sat in C++, Java or Python. Ninety minutes for a single question means a long, multi-part implementation — read, plan and test, rather than sprint. Paired with Zap-N, a separate battery of short neuro-assessment games.",
+    "prep_notes": "Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do.",
+    "focus_topics": [
+      "Design",
+      "Linked List",
+      "Arrays & Hashing",
+      "Stack",
+      "Math & Geometry"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        3
+      ],
+      [
+        "Linked List",
+        3
+      ],
+      [
+        "Design",
+        3
+      ],
+      [
+        "Dynamic Programming",
+        2
+      ],
+      [
+        "Queue",
+        1
+      ],
+      [
+        "Math",
+        1
+      ],
+      [
+        "String",
+        1
+      ],
+      [
+        "Hash Table",
+        1
+      ]
+    ],
+    "tagged_total": 9,
+    "evidence_thin": true,
+    "assessment": {
+      "date": "2026-09-27",
+      "in_days": 1,
+      "due_label": "tomorrow",
+      "label": "Campus SWE Test"
+    }
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Largest Rectangle in Histogram",
+      "slug": "largest-rectangle-in-histogram",
+      "neetcode_slug": "largest-rectangle-in-histogram",
+      "topic": "Stack",
+      "difficulty": "Hard",
+      "patterns": [
+        "stack",
+        "monotonic-stack"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+      "neetcode_url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+      "leetcode_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: Barclays' 2027 Technology Graduate Programme closed yesterday (25 Sep) and `applications.yaml` still shows it stuck at `applying` with no submission recorded — check first thing whether it actually went in before the close, because if not this has now tipped from a warning into a missed application. Optiver's Campus SWE Test and PwC's video interview both come due tomorrow (27 Sep): today is the reserved dress-rehearsal day, one 90-minute Hard problem (Largest Rectangle in Histogram) under real test conditions with no hints, then set up the Zap-N environment and the PwC recording space for tomorrow. `state.json` still shows zero logged completions and a streak of 0 across 29 days of suggestions, and `curriculum_cursor` hasn't moved off 0 — this is not a day to ramp difficulty beyond the single rehearsal problem; start running `trackrjobs log` the moment something is solved so the plan reflects real progress. No target company opened a new role this cycle; once Optiver and PwC clear tomorrow, BlackRock's Analyst Program is the next deadline in 4 days (30 Sep), still awaiting an outcome from its 8 Sep CodeVue test.",
+    "Optiver Campus SWE Test is tomorrow (Sun 27 Sep) — practice is pinned to it until it is sat. Clear the `assessment_*` lines in targets.yaml afterwards.",
+    "Two parts. (1) Campus Software Engineer Test 2026 - EUR: ONE coding question, ~90 minutes, C++/Java/Python — a long problem, not a sprint, so plan before typing and leave time to test. Sitting it in Python. (2) Zap-N: one or more short neuro-assessment games, 2-15 min each — not drillable, so treat it as a rested-and-alert task and do it in the same sitting only if you still feel sharp. Optiver has just 9 LeetCode-tagged problems, so the drill list leans on its measured topic mix (Design, Linked List, Array) rather than claiming those problems were asked.",
+    "Only 9 LeetCode problems are tagged Optiver — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.",
+    "Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do."
+  ],
+  "extra_problems": [
+    {
+      "name": "Design Circular Queue",
+      "slug": "design-circular-queue",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Linked List",
+        "Design",
+        "Queue"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/design-circular-queue/",
+      "neetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+      "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "LRU Cache",
+      "slug": "lru-cache",
+      "neetcode_slug": "lru-cache",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "patterns": [
+        "linked-list",
+        "fast-slow-pointers"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/lru-cache",
+      "neetcode_url": "https://neetcode.io/problems/lru-cache",
+      "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Exclusive Time of Functions",
+      "slug": "exclusive-time-of-functions",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Stack"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/exclusive-time-of-functions/",
+      "neetcode_url": "https://leetcode.com/problems/exclusive-time-of-functions/",
+      "leetcode_url": "https://leetcode.com/problems/exclusive-time-of-functions/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Best Time to Buy and Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "neetcode_slug": "buy-and-sell-crypto",
+      "topic": "Sliding Window",
+      "difficulty": "Easy",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/buy-and-sell-crypto",
+      "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+      "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Best Time to Buy and Sell Stock II",
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Dynamic Programming",
+        "Greedy"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+      "neetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+      "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    },
+    {
+      "name": "Best Time to Buy and Sell Stock IV",
+      "slug": "best-time-to-buy-and-sell-stock-iv",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Dynamic Programming"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+      "neetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+      "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company"
+    }
+  ],
+  "assessment": {
+    "company": "Optiver",
+    "company_id": "optiver",
+    "label": "Campus SWE Test",
+    "date": "2026-09-27",
+    "date_label": "Sun 27 Sep",
+    "in_days": 1,
+    "due_label": "tomorrow",
+    "note": "Two parts. (1) Campus Software Engineer Test 2026 - EUR: ONE coding question, ~90 minutes, C++/Java/Python — a long problem, not a sprint, so plan before typing and leave time to test. Sitting it in Python. (2) Zap-N: one or more short neuro-assessment games, 2-15 min each — not drillable, so treat it as a rested-and-alert task and do it in the same sitting only if you still feel sharp. Optiver has just 9 LeetCode-tagged problems, so the drill list leans on its measured topic mix (Design, Linked List, Array) rather than claiming those problems were asked.",
+    "platform": "Optiver Campus Test",
+    "style": "Campus Software Engineer Test 2026 (EUR): ONE coding question, ~90 minutes, sat in C++, Java or Python. Ninety minutes for a single question means a long, multi-part implementation — read, plan and test, rather than sprint. Paired with Zap-N, a separate battery of short neuro-assessment games.",
+    "prep_notes": "Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do.",
+    "questions": 1,
+    "duration_min": 90,
+    "extra_components": [
+      {
+        "name": "Zap-N",
+        "detail": "One or more short neuro-assessment games, 2-15 minutes each: timed pattern, memory, attention and reaction tasks rather than anything you can revise for.",
+        "prep": "Not drillable, and practising it is not the lever — condition is. Sit it rested, in one uninterrupted block, on a laptop rather than a phone, with a mouse if you have one. Read each game's instructions and do the practice round properly: most of the score spread is people who started before they understood the rules. Do it in the same sitting as the coding question only if you still feel sharp afterwards; otherwise come back to it."
+      }
+    ],
+    "focus_topics": [
+      "Design",
+      "Linked List",
+      "Arrays & Hashing",
+      "Stack",
+      "Math & Geometry"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        3
+      ],
+      [
+        "Linked List",
+        3
+      ],
+      [
+        "Design",
+        3
+      ],
+      [
+        "Dynamic Programming",
+        2
+      ],
+      [
+        "Queue",
+        1
+      ],
+      [
+        "Math",
+        1
+      ],
+      [
+        "String",
+        1
+      ],
+      [
+        "Hash Table",
+        1
+      ]
+    ],
+    "tagged_total": 9,
+    "evidence_thin": true,
+    "problems": [
+      {
+        "name": "Design Circular Queue",
+        "slug": "design-circular-queue",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Linked List",
+          "Design",
+          "Queue"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "LRU Cache",
+        "slug": "lru-cache",
+        "neetcode_slug": "lru-cache",
+        "topic": "Linked List",
+        "difficulty": "Medium",
+        "patterns": [
+          "linked-list",
+          "fast-slow-pointers"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/lru-cache",
+        "neetcode_url": "https://neetcode.io/problems/lru-cache",
+        "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Exclusive Time of Functions",
+        "slug": "exclusive-time-of-functions",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Stack"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/exclusive-time-of-functions/",
+        "neetcode_url": "https://leetcode.com/problems/exclusive-time-of-functions/",
+        "leetcode_url": "https://leetcode.com/problems/exclusive-time-of-functions/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Best Time to Buy and Sell Stock",
+        "slug": "best-time-to-buy-and-sell-stock",
+        "neetcode_slug": "buy-and-sell-crypto",
+        "topic": "Sliding Window",
+        "difficulty": "Easy",
+        "patterns": [
+          "sliding-window"
+        ],
+        "est_minutes": 12,
+        "url": "https://neetcode.io/problems/buy-and-sell-crypto",
+        "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Best Time to Buy and Sell Stock II",
+        "slug": "best-time-to-buy-and-sell-stock-ii",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Dynamic Programming",
+          "Greedy"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "neetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Best Time to Buy and Sell Stock IV",
+        "slug": "best-time-to-buy-and-sell-stock-iv",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Hard",
+        "patterns": [
+          "Dynamic Programming"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+        "neetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+        "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Design Skiplist",
+        "slug": "design-skiplist",
+        "neetcode_slug": "",
+        "topic": "Linked List",
+        "difficulty": "Hard",
+        "patterns": [
+          "Design"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/design-skiplist/",
+        "neetcode_url": "https://leetcode.com/problems/design-skiplist/",
+        "leetcode_url": "https://leetcode.com/problems/design-skiplist/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Number of Days Between Two Dates",
+        "slug": "number-of-days-between-two-dates",
+        "neetcode_slug": "",
+        "topic": "Math",
+        "difficulty": "Easy",
+        "patterns": [
+          "String"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/number-of-days-between-two-dates/",
+        "neetcode_url": "https://leetcode.com/problems/number-of-days-between-two-dates/",
+        "leetcode_url": "https://leetcode.com/problems/number-of-days-between-two-dates/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Design HashMap",
+        "slug": "design-hashmap",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Hash Table",
+          "Linked List",
+          "Design",
+          "Hash Function"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/design-hashmap/",
+        "neetcode_url": "https://leetcode.com/problems/design-hashmap/",
+        "leetcode_url": "https://leetcode.com/problems/design-hashmap/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Design Circular Deque",
+        "slug": "design-circular-deque",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Linked List",
+          "Design",
+          "Queue"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/design-circular-deque/",
+        "neetcode_url": "https://leetcode.com/problems/design-circular-deque/",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-deque/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Insert Delete GetRandom O(1)",
+        "slug": "insert-delete-getrandom-o1",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Hash Table",
+          "Math",
+          "Design",
+          "Randomized"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+        "neetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+        "leetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "LFU Cache",
+        "slug": "lfu-cache",
+        "neetcode_slug": "",
+        "topic": "Hash Table",
+        "difficulty": "Hard",
+        "patterns": [
+          "Linked List",
+          "Design",
+          "Doubly-Linked List"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/lfu-cache/",
+        "neetcode_url": "https://leetcode.com/problems/lfu-cache/",
+        "leetcode_url": "https://leetcode.com/problems/lfu-cache/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Shuffle an Array",
+        "slug": "shuffle-an-array",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Math",
+          "Design",
+          "Randomized"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/shuffle-an-array/",
+        "neetcode_url": "https://leetcode.com/problems/shuffle-an-array/",
+        "leetcode_url": "https://leetcode.com/problems/shuffle-an-array/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Stream of Characters",
+        "slug": "stream-of-characters",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Hard",
+        "patterns": [
+          "String",
+          "Design",
+          "Trie",
+          "Data Stream",
+          "Aho–Corasick Algorithm"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/stream-of-characters/",
+        "neetcode_url": "https://leetcode.com/problems/stream-of-characters/",
+        "leetcode_url": "https://leetcode.com/problems/stream-of-characters/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Design an Ordered Stream",
+        "slug": "design-an-ordered-stream",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Easy",
+        "patterns": [
+          "Hash Table",
+          "Design",
+          "Data Stream"
+        ],
+        "est_minutes": 12,
+        "url": "https://leetcode.com/problems/design-an-ordered-stream/",
+        "neetcode_url": "https://leetcode.com/problems/design-an-ordered-stream/",
+        "leetcode_url": "https://leetcode.com/problems/design-an-ordered-stream/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Design a Text Editor",
+        "slug": "design-a-text-editor",
+        "neetcode_slug": "",
+        "topic": "Linked List",
+        "difficulty": "Hard",
+        "patterns": [
+          "String",
+          "Stack",
+          "Design",
+          "Simulation",
+          "Doubly-Linked List"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/design-a-text-editor/",
+        "neetcode_url": "https://leetcode.com/problems/design-a-text-editor/",
+        "leetcode_url": "https://leetcode.com/problems/design-a-text-editor/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Design Event Manager",
+        "slug": "design-event-manager",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Hash Table",
+          "Design",
+          "Heap (Priority Queue)",
+          "Ordered Set"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/design-event-manager/",
+        "neetcode_url": "https://leetcode.com/problems/design-event-manager/",
+        "leetcode_url": "https://leetcode.com/problems/design-event-manager/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Word Break",
+        "slug": "word-break",
+        "neetcode_slug": "word-break",
+        "topic": "1-D Dynamic Programming",
+        "difficulty": "Medium",
+        "patterns": [
+          "dp",
+          "memoization"
+        ],
+        "est_minutes": 25,
+        "url": "https://neetcode.io/problems/word-break",
+        "neetcode_url": "https://neetcode.io/problems/word-break",
+        "leetcode_url": "https://leetcode.com/problems/word-break/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Word Break II",
+        "slug": "word-break-ii",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Hard",
+        "patterns": [
+          "Hash Table",
+          "String",
+          "Dynamic Programming",
+          "Backtracking",
+          "Trie",
+          "Memoization"
+        ],
+        "est_minutes": 45,
+        "url": "https://leetcode.com/problems/word-break-ii/",
+        "neetcode_url": "https://leetcode.com/problems/word-break-ii/",
+        "leetcode_url": "https://leetcode.com/problems/word-break-ii/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      },
+      {
+        "name": "Delete and Earn",
+        "slug": "delete-and-earn",
+        "neetcode_slug": "",
+        "topic": "Array",
+        "difficulty": "Medium",
+        "patterns": [
+          "Hash Table",
+          "Dynamic Programming"
+        ],
+        "est_minutes": 25,
+        "url": "https://leetcode.com/problems/delete-and-earn/",
+        "neetcode_url": "https://leetcode.com/problems/delete-and-earn/",
+        "leetcode_url": "https://leetcode.com/problems/delete-and-earn/",
+        "leetcode_premium": false,
+        "free_url": "",
+        "done": false
+      }
+    ],
+    "problems_done": 0,
+    "countdown": [
+      {
+        "date": "2026-09-26",
+        "label": "Today",
+        "days_left": 1,
+        "is_today": true,
+        "kind": "rehearsal",
+        "task": "Dress rehearsal — 90 minutes on a timer, no hints, no autocomplete beyond what the test itself gives you, in the language you will sit in, on this ONE problem: that is the shape of the real thing, and holding one problem together for the whole clock is the skill being tested. Then set up tomorrow: quiet room, charger, the invite link open, and a scratch file with your usual imports.",
+        "problems": [
+          {
+            "name": "Largest Rectangle in Histogram",
+            "slug": "largest-rectangle-in-histogram",
+            "neetcode_slug": "largest-rectangle-in-histogram",
+            "topic": "Stack",
+            "difficulty": "Hard",
+            "patterns": [
+              "stack",
+              "monotonic-stack"
+            ],
+            "est_minutes": 45,
+            "url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+            "neetcode_url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+            "leetcode_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+            "leetcode_premium": false,
+            "free_url": ""
+          }
+        ]
+      },
+      {
+        "date": "2026-09-27",
+        "label": "Tomorrow",
+        "days_left": 0,
+        "is_today": false,
+        "kind": "test",
+        "task": "Sit the Campus SWE Test: ONE question, 90 minutes, so it is a long problem, not a sprint. Spend the first ten minutes reading and writing the shape down — inputs, outputs, the data structure, the edge cases — before a line of code. Get a brute force passing every visible case first, then optimise — a correct O(n²) scores, an unfinished O(n) does not. Keep ten minutes back for the edge cases: empty input, one element, duplicates, negatives, and the largest size the constraints allow.",
+        "problems": []
+      }
+    ],
+    "today_task": "Dress rehearsal — 90 minutes on a timer, no hints, no autocomplete beyond what the test itself gives you, in the language you will sit in, on this ONE problem: that is the shape of the real thing, and holding one problem together for the whole clock is the skill being tested. Then set up tomorrow: quiet room, charger, the invite link open, and a scratch file with your usual imports."
+  },
+  "markdown": "### Practice — 2026-09-26\n**Optiver Campus SWE Test tomorrow** (Sun 27 Sep) — Optiver Campus Test. Dress rehearsal — 90 minutes on a timer, no hints, no autocomplete beyond what the test itself gives you, in the language you will sit in, on this ONE problem: that is the shape of the real thing, and holding one problem together for the whole clock is the skill being tested. Then set up tomorrow: quiet room, charger, the invite link open, and a scratch file with your usual imports.\n**Focus job:** Optiver — Graduate Software Engineer (open now). Assessment: Optiver Campus Test — Campus Software Engineer Test 2026 (EUR): ONE coding question, ~90 minutes, sat in C++, Java or Python. Ninety minutes for a single question means a long, multi-part implementation — read, plan and test, rather than sprint. Paired with Zap-N, a separate battery of short neuro-assessment games.\n- [Largest Rectangle in Histogram](https://neetcode.io/problems/largest-rectangle-in-histogram) · Hard · Stack · ~45 min · asked by this company\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 7`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: Barclays' 2027 Technology Graduate Programme closed yesterday (25 Sep) and `applications.yaml` still shows it stuck at `applying` with no submission recorded — check first thing whether it actually went in before the close, because if not this has now tipped from a warning into a missed application. Optiver's Campus SWE Test and PwC's video interview both come due tomorrow (27 Sep): today is the reserved dress-rehearsal day, one 90-minute Hard problem (Largest Rectangle in Histogram) under real test conditions with no hints, then set up the Zap-N environment and the PwC recording space for tomorrow. `state.json` still shows zero logged completions and a streak of 0 across 29 days of suggestions, and `curriculum_cursor` hasn't moved off 0 — this is not a day to ramp difficulty beyond the single rehearsal problem; start running `trackrjobs log` the moment something is solved so the plan reflects real progress. No target company opened a new role this cycle; once Optiver and PwC clear tomorrow, BlackRock's Analyst Program is the next deadline in 4 days (30 Sep), still awaiting an outcome from its 8 Sep CodeVue test.\n> Optiver Campus SWE Test is tomorrow (Sun 27 Sep) — practice is pinned to it until it is sat. Clear the `assessment_*` lines in targets.yaml afterwards.\n> Two parts. (1) Campus Software Engineer Test 2026 - EUR: ONE coding question, ~90 minutes, C++/Java/Python — a long problem, not a sprint, so plan before typing and leave time to test. Sitting it in Python. (2) Zap-N: one or more short neuro-assessment games, 2-15 min each — not drillable, so treat it as a rested-and-alert task and do it in the same sitting only if you still feel sharp. Optiver has just 9 LeetCode-tagged problems, so the drill list leans on its measured topic mix (Design, Linked List, Array) rather than claiming those problems were asked.\n> Only 9 LeetCode problems are tagged Optiver — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.\n> Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do."
+}
