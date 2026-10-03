@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-03",
+  "mode": "targeted",
+  "focus": {
+    "company": "J.P. Morgan",
+    "role": "2027 Software Engineer Program",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774781/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+    "closes_in_days": 29,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.",
+    "prep_notes": "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [],
+    "tagged_total": 81,
+    "evidence_thin": false,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Rotate Image",
+      "slug": "rotate-image",
+      "neetcode_slug": "rotate-matrix",
+      "topic": "Math & Geometry",
+      "difficulty": "Medium",
+      "patterns": [
+        "math",
+        "matrix",
+        "simulation"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/rotate-matrix",
+      "neetcode_url": "https://neetcode.io/problems/rotate-matrix",
+      "leetcode_url": "https://leetcode.com/problems/rotate-image/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Check if Number Has Equal Digit Count and Digit Value",
+      "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+      "neetcode_slug": "",
+      "topic": "Mixed",
+      "difficulty": "Easy",
+      "patterns": [],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+      "neetcode_url": "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+      "leetcode_url": "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Divide Players Into Teams of Equal Skill",
+      "slug": "divide-players-into-teams-of-equal-skill",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Hash Table",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/",
+      "neetcode_url": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/",
+      "leetcode_url": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: The three overdue pipeline stages are now a week old and have gone unresolved through four straight notes: Barclays' application close (25 Sep) is 8 days behind, and PwC's video interview and Optiver's Campus SWE Test (both due 27 Sep) are each 6 days behind — run `trackrjobs stage` on all three today, since every day left uncorrected is another day the dashboard and digest quote a dead deadline. Practice focus is J.P. Morgan (2027 Software Engineer Program, 29 days to the 1 Nov close, HackerRank OA already sat, HireVue video still pending on their side) — correctly the only live next step, nothing else to chase. `state.json` is unchanged at zero completed problems, a 0-day streak and `curriculum_cursor` at 0 after 37 days of daily suggestions, so this is still a fundamentals week, not a ramp: today's three — Rotate Image (Medium), Check if Number Has Equal Digit Count and Digit Value (Easy), Divide Players Into Teams of Equal Skill (Medium) — skew harder than the plan should feel right now, so clear the Easy first and treat both Mediums as optional stretch rather than the baseline; log anything solved to finally break the streak. No target company opened a new role this cycle — of the week's 9 new listings, Neptune North's Graduate Software Developer (2027) is the closest match (67) but sits outside the tracked list, and nothing closing within 14 days (Bank of America, WTW, RWE) is a target either.",
+    "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+  ],
+  "extra_problems": [
+    {
+      "name": "Maximum Number of Points From Grid Queries",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Two Pointers",
+        "Breadth-First Search",
+        "Union-Find",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Matrix"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "neetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "leetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "neetcode_slug": "longest-palindromic-substring",
+      "topic": "1-D Dynamic Programming",
+      "difficulty": "Medium",
+      "patterns": [
+        "dp",
+        "memoization"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/longest-palindromic-substring",
+      "neetcode_url": "https://neetcode.io/problems/longest-palindromic-substring",
+      "leetcode_url": "https://leetcode.com/problems/longest-palindromic-substring/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Climbing Stairs",
+      "slug": "climbing-stairs",
+      "neetcode_slug": "climbing-stairs",
+      "topic": "1-D Dynamic Programming",
+      "difficulty": "Easy",
+      "patterns": [
+        "dp",
+        "memoization"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/climbing-stairs",
+      "neetcode_url": "https://neetcode.io/problems/climbing-stairs",
+      "leetcode_url": "https://leetcode.com/problems/climbing-stairs/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Happy Number",
+      "slug": "happy-number",
+      "neetcode_slug": "non-cyclical-number",
+      "topic": "Math & Geometry",
+      "difficulty": "Easy",
+      "patterns": [
+        "math",
+        "matrix",
+        "simulation"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/non-cyclical-number",
+      "neetcode_url": "https://neetcode.io/problems/non-cyclical-number",
+      "leetcode_url": "https://leetcode.com/problems/happy-number/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Reaching Points",
+      "slug": "reaching-points",
+      "neetcode_slug": "",
+      "topic": "Math",
+      "difficulty": "Hard",
+      "patterns": [
+        "Euclidean Algorithm",
+        "Greatest Common Divisor"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/reaching-points/",
+      "neetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "neetcode_slug": "sliding-window-maximum",
+      "topic": "Sliding Window",
+      "difficulty": "Hard",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/sliding-window-maximum",
+      "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+      "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-10-03\n**Focus job:** J.P. Morgan — 2027 Software Engineer Program (closes in 29 d). Assessment: HackerRank — HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.\n- [Rotate Image](https://neetcode.io/problems/rotate-matrix) · Medium · Math & Geometry · ~25 min · asked by this company (88% frequency)\n- [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) · Easy · Mixed · ~12 min · asked by this company (88% frequency)\n- [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) · Medium · Array · ~25 min · asked by this company (75% frequency)\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: The three overdue pipeline stages are now a week old and have gone unresolved through four straight notes: Barclays' application close (25 Sep) is 8 days behind, and PwC's video interview and Optiver's Campus SWE Test (both due 27 Sep) are each 6 days behind — run `trackrjobs stage` on all three today, since every day left uncorrected is another day the dashboard and digest quote a dead deadline. Practice focus is J.P. Morgan (2027 Software Engineer Program, 29 days to the 1 Nov close, HackerRank OA already sat, HireVue video still pending on their side) — correctly the only live next step, nothing else to chase. `state.json` is unchanged at zero completed problems, a 0-day streak and `curriculum_cursor` at 0 after 37 days of daily suggestions, so this is still a fundamentals week, not a ramp: today's three — Rotate Image (Medium), Check if Number Has Equal Digit Count and Digit Value (Easy), Divide Players Into Teams of Equal Skill (Medium) — skew harder than the plan should feel right now, so clear the Easy first and treat both Mediums as optional stretch rather than the baseline; log anything solved to finally break the streak. No target company opened a new role this cycle — of the week's 9 new listings, Neptune North's Graduate Software Developer (2027) is the closest match (67) but sits outside the tracked list, and nothing closing within 14 days (Bank of America, WTW, RWE) is a target either.\n> Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+}
