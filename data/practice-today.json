@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-10",
+  "mode": "targeted",
+  "focus": {
+    "company": "J.P. Morgan",
+    "role": "2027 Software Engineer Program",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774781/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+    "closes_in_days": 22,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.",
+    "prep_notes": "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [],
+    "tagged_total": 81,
+    "evidence_thin": false,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Generate Parentheses",
+      "slug": "generate-parentheses",
+      "neetcode_slug": "generate-parentheses",
+      "topic": "Stack",
+      "difficulty": "Medium",
+      "patterns": [
+        "stack",
+        "monotonic-stack"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/generate-parentheses",
+      "neetcode_url": "https://neetcode.io/problems/generate-parentheses",
+      "leetcode_url": "https://leetcode.com/problems/generate-parentheses/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    },
+    {
+      "name": "Fizz Buzz",
+      "slug": "fizz-buzz",
+      "neetcode_slug": "",
+      "topic": "Math",
+      "difficulty": "Easy",
+      "patterns": [
+        "String",
+        "Simulation"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/fizz-buzz/",
+      "neetcode_url": "https://leetcode.com/problems/fizz-buzz/",
+      "leetcode_url": "https://leetcode.com/problems/fizz-buzz/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    },
+    {
+      "name": "Get Equal Substrings Within Budget",
+      "slug": "get-equal-substrings-within-budget",
+      "neetcode_slug": "",
+      "topic": "String",
+      "difficulty": "Medium",
+      "patterns": [
+        "Binary Search",
+        "Sliding Window",
+        "Prefix Sum"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/get-equal-substrings-within-budget/",
+      "neetcode_url": "https://leetcode.com/problems/get-equal-substrings-within-budget/",
+      "leetcode_url": "https://leetcode.com/problems/get-equal-substrings-within-budget/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: Barclays' application close (25 Sep) is now 15 days overdue still parked at `applying`, and PwC's video interview and Optiver's Campus SWE Test (both due 27 Sep) are each 13 days overdue — unresolved through every note since 28 Sep, so running `trackrjobs stage` on all three remains the single most urgent thing this week, ahead of any more practice. Practice focus stays J.P. Morgan (2027 Software Engineer Program, 22 days to the 1 Nov close, HackerRank OA already sat, HireVue video still pending on their side) — correctly the only live next step, nothing else to chase. `state.json` is still at zero completed problems and a 0-day streak after 44 days of daily suggestions, and all six of JPMorgan's hand-written signature problems are now inside the 21-day recent-suggestion window, so today's set (Generate Parentheses, Fizz Buzz, Get Equal Substrings Within Budget) is drawn from its tagged pool rather than the hand-picked list — clear the one Easy (Fizz Buzz) first and treat both Mediums as stretch, not baseline, and log whichever gets solved to finally start the streak. Stay on fundamentals (Arrays & Hashing, Two Pointers, Sliding Window) rather than ramping difficulty — there is still no completed problem to justify it. Trackr sync was rate-limited again (proxy 403s on all four feeds), so the listings carry over from the last successful pull: no target company opened a new role this cycle (the one \"new\" Optiver row, Career Kickstarter - Tech, is a stale, long-closed listing), and of the week's 3 new listings none outranks Bramble CFD's Graduate Software Developer at match 64, which still sits outside the tracked list.",
+    "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+  ],
+  "extra_problems": [
+    {
+      "name": "Maximum Number of Points From Grid Queries",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Two Pointers",
+        "Breadth-First Search",
+        "Union-Find",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Matrix"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "neetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "leetcode_url": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (88% frequency)"
+    },
+    {
+      "name": "Reaching Points",
+      "slug": "reaching-points",
+      "neetcode_slug": "",
+      "topic": "Math",
+      "difficulty": "Hard",
+      "patterns": [
+        "Euclidean Algorithm",
+        "Greatest Common Divisor"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/reaching-points/",
+      "neetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "neetcode_slug": "sliding-window-maximum",
+      "topic": "Sliding Window",
+      "difficulty": "Hard",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/sliding-window-maximum",
+      "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+      "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Numbers With Repeated Digits",
+      "slug": "numbers-with-repeated-digits",
+      "neetcode_slug": "",
+      "topic": "Mixed",
+      "difficulty": "Hard",
+      "patterns": [],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "neetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "leetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Distinct Subsequences",
+      "slug": "distinct-subsequences",
+      "neetcode_slug": "count-subsequences",
+      "topic": "2-D Dynamic Programming",
+      "difficulty": "Hard",
+      "patterns": [
+        "dp",
+        "grid-dp"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/count-subsequences",
+      "neetcode_url": "https://neetcode.io/problems/count-subsequences",
+      "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    },
+    {
+      "name": "Find Median from Data Stream",
+      "slug": "find-median-from-data-stream",
+      "neetcode_slug": "find-median-in-a-data-stream",
+      "topic": "Heap / Priority Queue",
+      "difficulty": "Hard",
+      "patterns": [
+        "heap"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+      "neetcode_url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+      "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-10-10\n**Focus job:** J.P. Morgan — 2027 Software Engineer Program (closes in 22 d). Assessment: HackerRank — HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.\n- [Generate Parentheses](https://neetcode.io/problems/generate-parentheses) · Medium · Stack · ~25 min · asked by this company (50% frequency)\n- [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) · Easy · Math · ~12 min · asked by this company (50% frequency)\n- [Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) · Medium · String · ~25 min · asked by this company (50% frequency)\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: Barclays' application close (25 Sep) is now 15 days overdue still parked at `applying`, and PwC's video interview and Optiver's Campus SWE Test (both due 27 Sep) are each 13 days overdue — unresolved through every note since 28 Sep, so running `trackrjobs stage` on all three remains the single most urgent thing this week, ahead of any more practice. Practice focus stays J.P. Morgan (2027 Software Engineer Program, 22 days to the 1 Nov close, HackerRank OA already sat, HireVue video still pending on their side) — correctly the only live next step, nothing else to chase. `state.json` is still at zero completed problems and a 0-day streak after 44 days of daily suggestions, and all six of JPMorgan's hand-written signature problems are now inside the 21-day recent-suggestion window, so today's set (Generate Parentheses, Fizz Buzz, Get Equal Substrings Within Budget) is drawn from its tagged pool rather than the hand-picked list — clear the one Easy (Fizz Buzz) first and treat both Mediums as stretch, not baseline, and log whichever gets solved to finally start the streak. Stay on fundamentals (Arrays & Hashing, Two Pointers, Sliding Window) rather than ramping difficulty — there is still no completed problem to justify it. Trackr sync was rate-limited again (proxy 403s on all four feeds), so the listings carry over from the last successful pull: no target company opened a new role this cycle (the one \"new\" Optiver row, Career Kickstarter - Tech, is a stale, long-closed listing), and of the week's 3 new listings none outranks Bramble CFD's Graduate Software Developer at match 64, which still sits outside the tracked list.\n> Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+}
