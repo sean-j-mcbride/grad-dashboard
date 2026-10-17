@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-17",
+  "mode": "targeted",
+  "focus": {
+    "company": "J.P. Morgan",
+    "role": "2027 Software Engineer Program",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774781/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+    "closes_in_days": 15,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.",
+    "prep_notes": "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [],
+    "tagged_total": 81,
+    "evidence_thin": false,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Letter Combinations of a Phone Number",
+      "slug": "letter-combinations-of-a-phone-number",
+      "neetcode_slug": "combinations-of-a-phone-number",
+      "topic": "Backtracking",
+      "difficulty": "Medium",
+      "patterns": [
+        "backtracking",
+        "recursion"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/combinations-of-a-phone-number",
+      "neetcode_url": "https://neetcode.io/problems/combinations-of-a-phone-number",
+      "leetcode_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (38% frequency)"
+    },
+    {
+      "name": "Last Stone Weight",
+      "slug": "last-stone-weight",
+      "neetcode_slug": "last-stone-weight",
+      "topic": "Heap / Priority Queue",
+      "difficulty": "Easy",
+      "patterns": [
+        "heap"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/last-stone-weight",
+      "neetcode_url": "https://neetcode.io/problems/last-stone-weight",
+      "leetcode_url": "https://leetcode.com/problems/last-stone-weight/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (38% frequency)"
+    },
+    {
+      "name": "Maximum Subarray",
+      "slug": "maximum-subarray",
+      "neetcode_slug": "maximum-subarray",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "patterns": [
+        "greedy"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/maximum-subarray",
+      "neetcode_url": "https://neetcode.io/problems/maximum-subarray",
+      "leetcode_url": "https://leetcode.com/problems/maximum-subarray/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (38% frequency)"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: Barclays' application close (25 Sep) is now 22 days overdue still parked at `applying`, and PwC's video interview and Optiver's Campus SWE Test (both due 27 Sep) are each 20 days overdue — unresolved through every note since 28 Sep, so running `trackrjobs stage` on all three remains the single most urgent thing this week, well ahead of any more practice. Practice focus stays J.P. Morgan (2027 Software Engineer Program, 15 days to the 1 Nov close, HackerRank Cognitive + Coding OA already sat, HireVue video still pending on their side) — correctly the only live next step, nothing else to chase. `state.json` is still at zero completed problems and a 0-day streak after 50 days of daily suggestions, so this stays a fundamentals week, not a ramp: today's set (Letter Combinations of a Phone Number, Last Stone Weight, Maximum Subarray) is two Mediums around one Easy, drawn from JPMorgan's measured tagged pool (38% frequency) rather than its six hand-written signature problems, which remain inside the 21-day recent-suggestion window — clear the Easy (Last Stone Weight) first, treat the two Mediums as the real reps, and log whichever gets solved to finally start the streak. Trackr sync was rate-limited again (proxy 403s on all four feeds), so the listings carry over from the last successful pull: no target company opened a new role this cycle, target coverage still shows Spotify and Skyscanner as unmatched (both genuinely absent from Trackr's feed, not a drifted `company_id`), and of this week's 8 new listings the best outside the tracked list is Clearwater Analytics' Associate Software Development Engineer at match 67.",
+    "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+  ],
+  "extra_problems": [
+    {
+      "name": "Reaching Points",
+      "slug": "reaching-points",
+      "neetcode_slug": "",
+      "topic": "Math",
+      "difficulty": "Hard",
+      "patterns": [
+        "Euclidean Algorithm",
+        "Greatest Common Divisor"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/reaching-points/",
+      "neetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "neetcode_slug": "sliding-window-maximum",
+      "topic": "Sliding Window",
+      "difficulty": "Hard",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/sliding-window-maximum",
+      "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+      "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Numbers With Repeated Digits",
+      "slug": "numbers-with-repeated-digits",
+      "neetcode_slug": "",
+      "topic": "Mixed",
+      "difficulty": "Hard",
+      "patterns": [],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "neetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "leetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Distinct Subsequences",
+      "slug": "distinct-subsequences",
+      "neetcode_slug": "count-subsequences",
+      "topic": "2-D Dynamic Programming",
+      "difficulty": "Hard",
+      "patterns": [
+        "dp",
+        "grid-dp"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/count-subsequences",
+      "neetcode_url": "https://neetcode.io/problems/count-subsequences",
+      "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    },
+    {
+      "name": "Find Median from Data Stream",
+      "slug": "find-median-from-data-stream",
+      "neetcode_slug": "find-median-in-a-data-stream",
+      "topic": "Heap / Priority Queue",
+      "difficulty": "Hard",
+      "patterns": [
+        "heap"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+      "neetcode_url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+      "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    },
+    {
+      "name": "Minimum Cost to Make Array Equal",
+      "slug": "minimum-cost-to-make-array-equal",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Binary Search",
+        "Greedy",
+        "Sorting",
+        "Prefix Sum"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-10-17\n**Focus job:** J.P. Morgan — 2027 Software Engineer Program (closes in 15 d). Assessment: HackerRank — HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.\n- [Letter Combinations of a Phone Number](https://neetcode.io/problems/combinations-of-a-phone-number) · Medium · Backtracking · ~25 min · asked by this company (38% frequency)\n- [Last Stone Weight](https://neetcode.io/problems/last-stone-weight) · Easy · Heap / Priority Queue · ~12 min · asked by this company (38% frequency)\n- [Maximum Subarray](https://neetcode.io/problems/maximum-subarray) · Medium · Greedy · ~25 min · asked by this company (38% frequency)\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: Barclays' application close (25 Sep) is now 22 days overdue still parked at `applying`, and PwC's video interview and Optiver's Campus SWE Test (both due 27 Sep) are each 20 days overdue — unresolved through every note since 28 Sep, so running `trackrjobs stage` on all three remains the single most urgent thing this week, well ahead of any more practice. Practice focus stays J.P. Morgan (2027 Software Engineer Program, 15 days to the 1 Nov close, HackerRank Cognitive + Coding OA already sat, HireVue video still pending on their side) — correctly the only live next step, nothing else to chase. `state.json` is still at zero completed problems and a 0-day streak after 50 days of daily suggestions, so this stays a fundamentals week, not a ramp: today's set (Letter Combinations of a Phone Number, Last Stone Weight, Maximum Subarray) is two Mediums around one Easy, drawn from JPMorgan's measured tagged pool (38% frequency) rather than its six hand-written signature problems, which remain inside the 21-day recent-suggestion window — clear the Easy (Last Stone Weight) first, treat the two Mediums as the real reps, and log whichever gets solved to finally start the streak. Trackr sync was rate-limited again (proxy 403s on all four feeds), so the listings carry over from the last successful pull: no target company opened a new role this cycle, target coverage still shows Spotify and Skyscanner as unmatched (both genuinely absent from Trackr's feed, not a drifted `company_id`), and of this week's 8 new listings the best outside the tracked list is Clearwater Analytics' Associate Software Development Engineer at match 67.\n> Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+}
