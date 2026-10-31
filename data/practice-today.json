@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-31",
+  "mode": "targeted",
+  "focus": {
+    "company": "J.P. Morgan",
+    "role": "2027 Software Engineer Program",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774781/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+    "closes_in_days": 1,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "HackerRank",
+    "style": "HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.",
+    "prep_notes": "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer.",
+    "focus_topics": [
+      "Arrays & Hashing",
+      "Two Pointers",
+      "Sliding Window",
+      "1-D Dynamic Programming"
+    ],
+    "topic_profile": [],
+    "tagged_total": 81,
+    "evidence_thin": false,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Minimum Time to Type Word Using Special Typewriter",
+      "slug": "minimum-time-to-type-word-using-special-typewriter",
+      "neetcode_slug": "",
+      "topic": "Mixed",
+      "difficulty": "Easy",
+      "patterns": [],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Sort Integers by The Number of 1 Bits",
+      "slug": "sort-integers-by-the-number-of-1-bits",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "patterns": [
+        "Bit Manipulation",
+        "Sorting",
+        "Counting"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+      "neetcode_url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+      "leetcode_url": "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Fibonacci Number",
+      "slug": "fibonacci-number",
+      "neetcode_slug": "",
+      "topic": "Math",
+      "difficulty": "Easy",
+      "patterns": [
+        "Dynamic Programming",
+        "Recursion",
+        "Memoization"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/fibonacci-number/",
+      "neetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+      "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: JPMorgan Chase's 2027 Software Engineer Program closes tomorrow (1 Nov), but that application is already in — HackerRank OA sat, HireVue still un-invited — so there is nothing left to submit on it; the real decision this week is its sibling 2027 Data & AI - Full-Time Analyst, still untracked in `applications.yaml`, closing in 7 days (7 Nov). Three pipeline stages remain stuck past due and need a `trackrjobs stage` check in case any have quietly resolved: Barclays' 2027 Technology Graduate Programme (`applying`, 36 days past its 25 Sep close with no submission on record), and PwC's video interview plus Optiver's Campus SWE Test (each 34 days past their 27 Sep due dates). `state.json` still shows zero completed problems and a 0-day streak after 64 days of daily suggestions, so this stays a fundamentals week: keep today's set on Easy/low-Medium Arrays & Hashing, Two Pointers and Sliding Window — the overlap between J.P. Morgan's and Barclays' signature lists — rather than reaching for Dynamic Programming or Graphs, and log one solve today to finally open the streak. Trackr's sync hit proxy 403s on all four feeds again (0 fetched), so the feed carries over unchanged — no target company opened a new role this cycle and target coverage still lists Spotify and Skyscanner as unmatched (both genuinely absent from Trackr, not a drifted id).",
+    "Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+  ],
+  "extra_problems": [
+    {
+      "name": "Reaching Points",
+      "slug": "reaching-points",
+      "neetcode_slug": "",
+      "topic": "Math",
+      "difficulty": "Hard",
+      "patterns": [
+        "Euclidean Algorithm",
+        "Greatest Common Divisor"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/reaching-points/",
+      "neetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_url": "https://leetcode.com/problems/reaching-points/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "neetcode_slug": "sliding-window-maximum",
+      "topic": "Sliding Window",
+      "difficulty": "Hard",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/sliding-window-maximum",
+      "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+      "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (75% frequency)"
+    },
+    {
+      "name": "Numbers With Repeated Digits",
+      "slug": "numbers-with-repeated-digits",
+      "neetcode_slug": "",
+      "topic": "Mixed",
+      "difficulty": "Hard",
+      "patterns": [],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "neetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "leetcode_url": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (62% frequency)"
+    },
+    {
+      "name": "Distinct Subsequences",
+      "slug": "distinct-subsequences",
+      "neetcode_slug": "count-subsequences",
+      "topic": "2-D Dynamic Programming",
+      "difficulty": "Hard",
+      "patterns": [
+        "dp",
+        "grid-dp"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/count-subsequences",
+      "neetcode_url": "https://neetcode.io/problems/count-subsequences",
+      "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    },
+    {
+      "name": "Find Median from Data Stream",
+      "slug": "find-median-from-data-stream",
+      "neetcode_slug": "find-median-in-a-data-stream",
+      "topic": "Heap / Priority Queue",
+      "difficulty": "Hard",
+      "patterns": [
+        "heap"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+      "neetcode_url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+      "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    },
+    {
+      "name": "Minimum Cost to Make Array Equal",
+      "slug": "minimum-cost-to-make-array-equal",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Binary Search",
+        "Greedy",
+        "Sorting",
+        "Prefix Sum"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "asked by this company (50% frequency)"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-10-31\n**Focus job:** J.P. Morgan — 2027 Software Engineer Program (closes in 1 d). Assessment: HackerRank — HackerRank Cognitive + Coding (2 DS&A problems), then HireVue video.\n- [Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/) · Easy · Mixed · ~12 min · asked by this company (62% frequency)\n- [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) · Easy · Array · ~12 min · asked by this company (62% frequency)\n- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) · Easy · Math · ~12 min · asked by this company (50% frequency)\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: JPMorgan Chase's 2027 Software Engineer Program closes tomorrow (1 Nov), but that application is already in — HackerRank OA sat, HireVue still un-invited — so there is nothing left to submit on it; the real decision this week is its sibling 2027 Data & AI - Full-Time Analyst, still untracked in `applications.yaml`, closing in 7 days (7 Nov). Three pipeline stages remain stuck past due and need a `trackrjobs stage` check in case any have quietly resolved: Barclays' 2027 Technology Graduate Programme (`applying`, 36 days past its 25 Sep close with no submission on record), and PwC's video interview plus Optiver's Campus SWE Test (each 34 days past their 27 Sep due dates). `state.json` still shows zero completed problems and a 0-day streak after 64 days of daily suggestions, so this stays a fundamentals week: keep today's set on Easy/low-Medium Arrays & Hashing, Two Pointers and Sliding Window — the overlap between J.P. Morgan's and Barclays' signature lists — rather than reaching for Dynamic Programming or Graphs, and log one solve today to finally open the streak. Trackr's sync hit proxy 403s on all four feeds again (0 fetched), so the feed carries over unchanged — no target company opened a new role this cycle and target coverage still lists Spotify and Skyscanner as unmatched (both genuinely absent from Trackr, not a drifted id).\n> Mostly easy/low-medium. Speed and passing all hidden tests matters; don't over-engineer."
+}
