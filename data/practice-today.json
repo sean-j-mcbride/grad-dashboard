@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-14",
+  "mode": "targeted",
+  "focus": {
+    "company": "PwC",
+    "role": "Graduate - Technology and AI",
+    "url": "https://jobs.pwc.co.uk/earlycareers/uk/en/search-results?keywords=%22graduate+-+technology+and+AI%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+    "closes_in_days": 1,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "video interview",
+    "style": "Automated record-and-submit video interview: a handful of motivational and strengths questions, each with short prep time and a capped answer length. No coding round at this stage.",
+    "prep_notes": "Nothing here is drilled with LeetCode. Prepare three or four concrete stories you can tell in 90 seconds — a technical thing you built, a time you worked out a problem, why technology and why this firm — and record one practice answer to check your framing, lighting and pace. Look at the lens, not the preview window.",
+    "focus_topics": [],
+    "topic_profile": [],
+    "tagged_total": 0,
+    "evidence_thin": true,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Valid Sudoku",
+      "slug": "valid-sudoku",
+      "neetcode_slug": "valid-sudoku",
+      "topic": "Arrays & Hashing",
+      "difficulty": "Medium",
+      "patterns": [
+        "hashing",
+        "prefix",
+        "counting"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/valid-sudoku",
+      "neetcode_url": "https://neetcode.io/problems/valid-sudoku",
+      "leetcode_url": "https://leetcode.com/problems/valid-sudoku/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    },
+    {
+      "name": "Valid Anagram",
+      "slug": "valid-anagram",
+      "neetcode_slug": "is-anagram",
+      "topic": "Arrays & Hashing",
+      "difficulty": "Easy",
+      "patterns": [
+        "hashing",
+        "prefix",
+        "counting"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/is-anagram",
+      "neetcode_url": "https://neetcode.io/problems/is-anagram",
+      "leetcode_url": "https://leetcode.com/problems/valid-anagram/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    },
+    {
+      "name": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "neetcode_slug": "longest-consecutive-sequence",
+      "topic": "Arrays & Hashing",
+      "difficulty": "Medium",
+      "patterns": [
+        "hashing",
+        "prefix",
+        "counting"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/longest-consecutive-sequence",
+      "neetcode_url": "https://neetcode.io/problems/longest-consecutive-sequence",
+      "leetcode_url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: The single most urgent thing this week is the same deadline, now one day out and still untouched: PwC's \"Graduate - Technology and AI\" role closes **2026-11-15** and still has no application on record — if it is going in at all, today is the day, since there is no OA format known for this specific req yet (treat it as a HackerRank-style default, 2 DS&A problems, until an invite says otherwise). `state.json` is still at zero completed problems and a 0-day streak after 78 days of daily suggestions and `curriculum_cursor` stuck at 0 — this stays strictly a fundamentals week, not a ramp-up: keep today's set on Easy/low-Medium Arrays & Hashing, Two Pointers and Sliding Window (the overlap between J.P. Morgan's and Barclays' signature lists, and close enough to PwC's generic default to double as prep for tomorrow's deadline), and log just one solve today — a streak this flat for this long is now a bigger risk to the plan than any single deadline. No target company opened a brand-new role this cycle (sync hit proxy 403s on all four Trackr feeds again, 0 fetched, so the 26 open target-company roles carry over unchanged); Optiver's Career Kickstarter: Women in Tech 2027 remains the only other target row with a non-negative `closes_in_days`, now 57 out and still not urgent. Target coverage still lists Spotify and Skyscanner as unmatched (both genuinely absent from Trackr, not a drifted id), and the three stale pipeline stages — Barclays `applying` (50 days past its 25 Sep close), PwC's video interview and Optiver's Campus SWE Test (48 days past their 27 Sep due dates) — are still unresolved in `applications.yaml`; that file is outside this routine's scope to edit, so it still needs a manual `trackrjobs stage` pass.",
+    "No company-tag pool for PwC — today's problems come from the NeetCode 150 walk. Add it to MIRROR_DIRS in tools/refresh_company_problems.py if a mirror carries it.",
+    "Nothing here is drilled with LeetCode. Prepare three or four concrete stories you can tell in 90 seconds — a technical thing you built, a time you worked out a problem, why technology and why this firm — and record one practice answer to check your framing, lighting and pace. Look at the lens, not the preview window."
+  ],
+  "extra_problems": [
+    {
+      "name": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "neetcode_slug": "trapping-rain-water",
+      "topic": "Two Pointers",
+      "difficulty": "Hard",
+      "patterns": [
+        "two-pointers"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/trapping-rain-water",
+      "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+      "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    },
+    {
+      "name": "Two Sum II - Input Array Is Sorted",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "neetcode_slug": "two-integer-sum-ii",
+      "topic": "Two Pointers",
+      "difficulty": "Medium",
+      "patterns": [
+        "two-pointers"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/two-integer-sum-ii",
+      "neetcode_url": "https://neetcode.io/problems/two-integer-sum-ii",
+      "leetcode_url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    },
+    {
+      "name": "3Sum",
+      "slug": "3sum",
+      "neetcode_slug": "three-integer-sum",
+      "topic": "Two Pointers",
+      "difficulty": "Medium",
+      "patterns": [
+        "two-pointers"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/three-integer-sum",
+      "neetcode_url": "https://neetcode.io/problems/three-integer-sum",
+      "leetcode_url": "https://leetcode.com/problems/3sum/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    },
+    {
+      "name": "Best Time to Buy and Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "neetcode_slug": "buy-and-sell-crypto",
+      "topic": "Sliding Window",
+      "difficulty": "Easy",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 12,
+      "url": "https://neetcode.io/problems/buy-and-sell-crypto",
+      "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+      "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    },
+    {
+      "name": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "neetcode_slug": "longest-substring-without-duplicates",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+      "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+      "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    },
+    {
+      "name": "Longest Repeating Character Replacement",
+      "slug": "longest-repeating-character-replacement",
+      "neetcode_slug": "longest-repeating-substring-with-replacement",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "patterns": [
+        "sliding-window"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement",
+      "neetcode_url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement",
+      "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "next in NeetCode 150"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-11-14\n**Focus job:** PwC — Graduate - Technology and AI (closes in 1 d). Assessment: video interview — Automated record-and-submit video interview: a handful of motivational and strengths questions, each with short prep time and a capped answer length. No coding round at this stage.\n- [Valid Sudoku](https://neetcode.io/problems/valid-sudoku) · Medium · Arrays & Hashing · ~25 min · next in NeetCode 150\n- [Valid Anagram](https://neetcode.io/problems/is-anagram) · Easy · Arrays & Hashing · ~12 min · next in NeetCode 150\n- [Longest Consecutive Sequence](https://neetcode.io/problems/longest-consecutive-sequence) · Medium · Arrays & Hashing · ~25 min · next in NeetCode 150\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: The single most urgent thing this week is the same deadline, now one day out and still untouched: PwC's \"Graduate - Technology and AI\" role closes **2026-11-15** and still has no application on record — if it is going in at all, today is the day, since there is no OA format known for this specific req yet (treat it as a HackerRank-style default, 2 DS&A problems, until an invite says otherwise). `state.json` is still at zero completed problems and a 0-day streak after 78 days of daily suggestions and `curriculum_cursor` stuck at 0 — this stays strictly a fundamentals week, not a ramp-up: keep today's set on Easy/low-Medium Arrays & Hashing, Two Pointers and Sliding Window (the overlap between J.P. Morgan's and Barclays' signature lists, and close enough to PwC's generic default to double as prep for tomorrow's deadline), and log just one solve today — a streak this flat for this long is now a bigger risk to the plan than any single deadline. No target company opened a brand-new role this cycle (sync hit proxy 403s on all four Trackr feeds again, 0 fetched, so the 26 open target-company roles carry over unchanged); Optiver's Career Kickstarter: Women in Tech 2027 remains the only other target row with a non-negative `closes_in_days`, now 57 out and still not urgent. Target coverage still lists Spotify and Skyscanner as unmatched (both genuinely absent from Trackr, not a drifted id), and the three stale pipeline stages — Barclays `applying` (50 days past its 25 Sep close), PwC's video interview and Optiver's Campus SWE Test (48 days past their 27 Sep due dates) — are still unresolved in `applications.yaml`; that file is outside this routine's scope to edit, so it still needs a manual `trackrjobs stage` pass.\n> No company-tag pool for PwC — today's problems come from the NeetCode 150 walk. Add it to MIRROR_DIRS in tools/refresh_company_problems.py if a mirror carries it.\n> Nothing here is drilled with LeetCode. Prepare three or four concrete stories you can tell in 90 seconds — a technical thing you built, a time you worked out a problem, why technology and why this firm — and record one practice answer to check your framing, lighting and pace. Look at the lens, not the preview window."
+}
