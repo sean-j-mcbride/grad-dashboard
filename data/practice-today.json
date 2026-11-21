@@ -1,0 +1,256 @@
+{
+  "date": "2026-11-21",
+  "mode": "targeted",
+  "focus": {
+    "company": "Optiver",
+    "role": "Career Kickstarter: Women in Tech 2027",
+    "url": "https://grnh.se/z2pvz7s72us",
+    "closes_in_days": 50,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "Optiver Campus Test",
+    "style": "Campus Software Engineer Test 2026 (EUR): ONE coding question, ~90 minutes, sat in C++, Java or Python. Ninety minutes for a single question means a long, multi-part implementation — read, plan and test, rather than sprint. Paired with Zap-N, a separate battery of short neuro-assessment games.",
+    "prep_notes": "Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do.",
+    "focus_topics": [
+      "Design",
+      "Linked List",
+      "Arrays & Hashing",
+      "Stack",
+      "Math & Geometry"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        3
+      ],
+      [
+        "Linked List",
+        3
+      ],
+      [
+        "Design",
+        3
+      ],
+      [
+        "Dynamic Programming",
+        2
+      ],
+      [
+        "Queue",
+        1
+      ],
+      [
+        "Math",
+        1
+      ],
+      [
+        "String",
+        1
+      ],
+      [
+        "Hash Table",
+        1
+      ]
+    ],
+    "tagged_total": 9,
+    "evidence_thin": true,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Coin Change",
+      "slug": "coin-change",
+      "neetcode_slug": "coin-change",
+      "topic": "1-D Dynamic Programming",
+      "difficulty": "Medium",
+      "patterns": [
+        "dp",
+        "memoization"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/coin-change",
+      "neetcode_url": "https://neetcode.io/problems/coin-change",
+      "leetcode_url": "https://leetcode.com/problems/coin-change/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Coin Change II",
+      "slug": "coin-change-ii",
+      "neetcode_slug": "coin-change-ii",
+      "topic": "2-D Dynamic Programming",
+      "difficulty": "Medium",
+      "patterns": [
+        "dp",
+        "grid-dp"
+      ],
+      "est_minutes": 25,
+      "url": "https://neetcode.io/problems/coin-change-ii",
+      "neetcode_url": "https://neetcode.io/problems/coin-change-ii",
+      "leetcode_url": "https://leetcode.com/problems/coin-change-ii/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Stream of Characters",
+      "slug": "stream-of-characters",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "String",
+        "Design",
+        "Trie",
+        "Data Stream",
+        "Aho–Corasick Algorithm"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/stream-of-characters/",
+      "neetcode_url": "https://leetcode.com/problems/stream-of-characters/",
+      "leetcode_url": "https://leetcode.com/problems/stream-of-characters/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: Still the same single most urgent thing: `practice/state.json` shows `completed` empty, `streak` 0 and `curriculum_cursor` 0, 85 days after the 28 Aug start and roughly 90 problems suggested and skipped — log one solve with `trackrjobs log` before anything else here matters, even an Easy. Sync hit the same four Trackr 403s again (0 fetched, 0 new), so nothing newly opened among the targets; the nearest forward deadline is still Optiver's Career Kickstarter: Women in Tech 2027, now 50 days out (closes 10 Jan 2027), and it stays the plan's anchor. With zero completions logged, hold difficulty at fundamentals rather than ramping it: keep the Easy/Medium pair ahead of the Hard, and lean on `topic_fill` over Optiver's own thin 9-problem tag pool (Design, Linked List, Arrays & Hashing, Stack, Math & Geometry) — the honest signal here is habit, not difficulty. The three overdue pipeline items are now further past due and still need a manual pass: Barclays' application (57 days past its 25 Sep close, stage still `applying`), PwC's video interview and Optiver's Graduate Software Engineer OA (55 days past their 27 Sep due dates, both still `oa`) — worth confirming by hand whether these were actually completed, since a two-month-stale `oa`/`applying` stage reads as either abandoned prep or a bookkeeping gap, and only Sean knows which.",
+    "Only 9 LeetCode problems are tagged Optiver — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.",
+    "Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do."
+  ],
+  "extra_problems": [
+    {
+      "name": "Design a Text Editor",
+      "slug": "design-a-text-editor",
+      "neetcode_slug": "",
+      "topic": "Linked List",
+      "difficulty": "Hard",
+      "patterns": [
+        "String",
+        "Stack",
+        "Design",
+        "Simulation",
+        "Doubly-Linked List"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/design-a-text-editor/",
+      "neetcode_url": "https://leetcode.com/problems/design-a-text-editor/",
+      "leetcode_url": "https://leetcode.com/problems/design-a-text-editor/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Word Break II",
+      "slug": "word-break-ii",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Hash Table",
+        "String",
+        "Dynamic Programming",
+        "Backtracking",
+        "Trie",
+        "Memoization"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/word-break-ii/",
+      "neetcode_url": "https://leetcode.com/problems/word-break-ii/",
+      "leetcode_url": "https://leetcode.com/problems/word-break-ii/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Concatenated Words",
+      "slug": "concatenated-words",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "String",
+        "Dynamic Programming",
+        "Depth-First Search",
+        "Trie",
+        "Sorting"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/concatenated-words/",
+      "neetcode_url": "https://leetcode.com/problems/concatenated-words/",
+      "leetcode_url": "https://leetcode.com/problems/concatenated-words/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Allocate Mailboxes",
+      "slug": "allocate-mailboxes",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Math",
+        "Dynamic Programming",
+        "Sorting"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/allocate-mailboxes/",
+      "neetcode_url": "https://leetcode.com/problems/allocate-mailboxes/",
+      "leetcode_url": "https://leetcode.com/problems/allocate-mailboxes/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "neetcode_slug": "trapping-rain-water",
+      "topic": "Two Pointers",
+      "difficulty": "Hard",
+      "patterns": [
+        "two-pointers"
+      ],
+      "est_minutes": 45,
+      "url": "https://neetcode.io/problems/trapping-rain-water",
+      "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+      "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Maximal Rectangle",
+      "slug": "maximal-rectangle",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Dynamic Programming",
+        "Stack",
+        "Matrix",
+        "Monotonic Stack"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/maximal-rectangle/",
+      "neetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+      "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-11-21\n**Focus job:** Optiver — Career Kickstarter: Women in Tech 2027 (closes in 50 d). Assessment: Optiver Campus Test — Campus Software Engineer Test 2026 (EUR): ONE coding question, ~90 minutes, sat in C++, Java or Python. Ninety minutes for a single question means a long, multi-part implementation — read, plan and test, rather than sprint. Paired with Zap-N, a separate battery of short neuro-assessment games.\n- [Coin Change](https://neetcode.io/problems/coin-change) · Medium · 1-D Dynamic Programming · ~25 min · matches Optiver's topic mix\n- [Coin Change II](https://neetcode.io/problems/coin-change-ii) · Medium · 2-D Dynamic Programming · ~25 min · matches Optiver's topic mix\n- [Stream of Characters](https://leetcode.com/problems/stream-of-characters/) · Hard · Array · ~45 min · matches Optiver's topic mix\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: Still the same single most urgent thing: `practice/state.json` shows `completed` empty, `streak` 0 and `curriculum_cursor` 0, 85 days after the 28 Aug start and roughly 90 problems suggested and skipped — log one solve with `trackrjobs log` before anything else here matters, even an Easy. Sync hit the same four Trackr 403s again (0 fetched, 0 new), so nothing newly opened among the targets; the nearest forward deadline is still Optiver's Career Kickstarter: Women in Tech 2027, now 50 days out (closes 10 Jan 2027), and it stays the plan's anchor. With zero completions logged, hold difficulty at fundamentals rather than ramping it: keep the Easy/Medium pair ahead of the Hard, and lean on `topic_fill` over Optiver's own thin 9-problem tag pool (Design, Linked List, Arrays & Hashing, Stack, Math & Geometry) — the honest signal here is habit, not difficulty. The three overdue pipeline items are now further past due and still need a manual pass: Barclays' application (57 days past its 25 Sep close, stage still `applying`), PwC's video interview and Optiver's Graduate Software Engineer OA (55 days past their 27 Sep due dates, both still `oa`) — worth confirming by hand whether these were actually completed, since a two-month-stale `oa`/`applying` stage reads as either abandoned prep or a bookkeeping gap, and only Sean knows which.\n> Only 9 LeetCode problems are tagged Optiver — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.\n> Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do."
+}
