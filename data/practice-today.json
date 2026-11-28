@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-28",
+  "mode": "targeted",
+  "focus": {
+    "company": "Optiver",
+    "role": "Career Kickstarter: Women in Tech 2027",
+    "url": "https://grnh.se/z2pvz7s72us",
+    "closes_in_days": 43,
+    "is_rolling": false,
+    "has_live_listing": true,
+    "platform": "Optiver Campus Test",
+    "style": "Campus Software Engineer Test 2026 (EUR): ONE coding question, ~90 minutes, sat in C++, Java or Python. Ninety minutes for a single question means a long, multi-part implementation — read, plan and test, rather than sprint. Paired with Zap-N, a separate battery of short neuro-assessment games.",
+    "prep_notes": "Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do.",
+    "focus_topics": [
+      "Design",
+      "Linked List",
+      "Arrays & Hashing",
+      "Stack",
+      "Math & Geometry"
+    ],
+    "topic_profile": [
+      [
+        "Array",
+        3
+      ],
+      [
+        "Linked List",
+        3
+      ],
+      [
+        "Design",
+        3
+      ],
+      [
+        "Dynamic Programming",
+        2
+      ],
+      [
+        "Queue",
+        1
+      ],
+      [
+        "Math",
+        1
+      ],
+      [
+        "String",
+        1
+      ],
+      [
+        "Hash Table",
+        1
+      ]
+    ],
+    "tagged_total": 9,
+    "evidence_thin": true,
+    "assessment": null
+  },
+  "warmup": null,
+  "problems": [
+    {
+      "name": "Find All Good Indices",
+      "slug": "find-all-good-indices",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Medium",
+      "patterns": [
+        "Dynamic Programming",
+        "Prefix Sum"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/find-all-good-indices/",
+      "neetcode_url": "https://leetcode.com/problems/find-all-good-indices/",
+      "leetcode_url": "https://leetcode.com/problems/find-all-good-indices/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Find Common Characters",
+      "slug": "find-common-characters",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Easy",
+      "patterns": [
+        "Hash Table",
+        "String"
+      ],
+      "est_minutes": 12,
+      "url": "https://leetcode.com/problems/find-common-characters/",
+      "neetcode_url": "https://leetcode.com/problems/find-common-characters/",
+      "leetcode_url": "https://leetcode.com/problems/find-common-characters/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Count Number of Texts",
+      "slug": "count-number-of-texts",
+      "neetcode_slug": "",
+      "topic": "Hash Table",
+      "difficulty": "Medium",
+      "patterns": [
+        "Math",
+        "String",
+        "Dynamic Programming"
+      ],
+      "est_minutes": 25,
+      "url": "https://leetcode.com/problems/count-number-of-texts/",
+      "neetcode_url": "https://leetcode.com/problems/count-number-of-texts/",
+      "leetcode_url": "https://leetcode.com/problems/count-number-of-texts/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    }
+  ],
+  "timed_simulation": null,
+  "streak": 0,
+  "completed_count": 0,
+  "curriculum_progress": {
+    "done": 0,
+    "total": 150,
+    "current_topic": "Arrays & Hashing"
+  },
+  "notes": [
+    "Coach: `practice/state.json` is unchanged yet again: `completed` empty, `streak` 0, `curriculum_cursor` 0 — 92 days since the 28 Aug start, 264 problems suggested across those 92 daily entries, and not one recorded. That stays the single most urgent thing here, ahead of everything below, and it only takes one `trackrjobs log <slug> --time <min>` after solving something to start closing it. Trackr's sync hit the same four agent-proxy 403s again (0 fetched), so the 24 open target rows are unchanged and no target company opened anything new this week. The nearest forward deadline is still Optiver's Career Kickstarter: Women in Tech 2027, now 43 days out (closes 10 Jan 2027), which keeps anchoring the plan; Bloomberg's 2027 Software Engineer row is still flagged `opening_window` (last year's listing opened 18 Dec, so a fresh posting could land within the next ~20 days — a seasonal echo, not a forecast). With zero completions to justify ramping, hold at Easy/Medium-first fundamentals — work Arrays & Hashing, Two Pointers and Stack, the shared style across the high-priority HackerRank targets (Morgan Stanley, Barclays, Goldman Sachs, JPMorgan) — rather than drilling Optiver's thin 9-problem Design/Linked-List pool in isolation. The same three pipeline items (Barclays' application due 25 Sep, PwC's video interview and Optiver's OA both due 27 Sep) are now 62-64 days past their recorded due dates with no stage change — worth five minutes by hand to confirm whether any actually moved and were simply never logged with `trackrjobs stage`.",
+    "Only 9 LeetCode problems are tagged Optiver — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.",
+    "Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do."
+  ],
+  "extra_problems": [
+    {
+      "name": "Maximum Profit in Job Scheduling",
+      "slug": "maximum-profit-in-job-scheduling",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Binary Search",
+        "Dynamic Programming",
+        "Sorting"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+      "neetcode_url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+      "leetcode_url": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Minimum Number of Refueling Stops",
+      "slug": "minimum-number-of-refueling-stops",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Dynamic Programming",
+        "Greedy",
+        "Heap (Priority Queue)"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/minimum-number-of-refueling-stops/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-number-of-refueling-stops/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-number-of-refueling-stops/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Minimum Number of Taps to Open to Water a Garden",
+      "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Dynamic Programming",
+        "Greedy"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/",
+      "neetcode_url": "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/",
+      "leetcode_url": "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Find the Maximum Sum of Node Values",
+      "slug": "find-the-maximum-sum-of-node-values",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Dynamic Programming",
+        "Greedy",
+        "Bit Manipulation",
+        "Tree",
+        "Sorting"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+      "neetcode_url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+      "leetcode_url": "https://leetcode.com/problems/find-the-maximum-sum-of-node-values/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Remove Boxes",
+      "slug": "remove-boxes",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Dynamic Programming",
+        "Memoization"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/remove-boxes/",
+      "neetcode_url": "https://leetcode.com/problems/remove-boxes/",
+      "leetcode_url": "https://leetcode.com/problems/remove-boxes/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    },
+    {
+      "name": "Length of the Longest Valid Substring",
+      "slug": "length-of-the-longest-valid-substring",
+      "neetcode_slug": "",
+      "topic": "Array",
+      "difficulty": "Hard",
+      "patterns": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "est_minutes": 45,
+      "url": "https://leetcode.com/problems/length-of-the-longest-valid-substring/",
+      "neetcode_url": "https://leetcode.com/problems/length-of-the-longest-valid-substring/",
+      "leetcode_url": "https://leetcode.com/problems/length-of-the-longest-valid-substring/",
+      "leetcode_premium": false,
+      "free_url": "",
+      "why": "matches Optiver's topic mix"
+    }
+  ],
+  "assessment": null,
+  "markdown": "### Practice — 2026-11-28\n**Focus job:** Optiver — Career Kickstarter: Women in Tech 2027 (closes in 43 d). Assessment: Optiver Campus Test — Campus Software Engineer Test 2026 (EUR): ONE coding question, ~90 minutes, sat in C++, Java or Python. Ninety minutes for a single question means a long, multi-part implementation — read, plan and test, rather than sprint. Paired with Zap-N, a separate battery of short neuro-assessment games.\n- [Find All Good Indices](https://leetcode.com/problems/find-all-good-indices/) · Medium · Array · ~25 min · matches Optiver's topic mix\n- [Find Common Characters](https://leetcode.com/problems/find-common-characters/) · Easy · Array · ~12 min · matches Optiver's topic mix\n- [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) · Medium · Hash Table · ~25 min · matches Optiver's topic mix\n- _6 more queued_ — tap **More practice** on the dashboard, or `uv run trackrjobs practice --problems 9`\n\n_Streak: 0 day(s) · NeetCode 150: 0/150 (Arrays & Hashing)_\n> Coach: `practice/state.json` is unchanged yet again: `completed` empty, `streak` 0, `curriculum_cursor` 0 — 92 days since the 28 Aug start, 264 problems suggested across those 92 daily entries, and not one recorded. That stays the single most urgent thing here, ahead of everything below, and it only takes one `trackrjobs log <slug> --time <min>` after solving something to start closing it. Trackr's sync hit the same four agent-proxy 403s again (0 fetched), so the 24 open target rows are unchanged and no target company opened anything new this week. The nearest forward deadline is still Optiver's Career Kickstarter: Women in Tech 2027, now 43 days out (closes 10 Jan 2027), which keeps anchoring the plan; Bloomberg's 2027 Software Engineer row is still flagged `opening_window` (last year's listing opened 18 Dec, so a fresh posting could land within the next ~20 days — a seasonal echo, not a forecast). With zero completions to justify ramping, hold at Easy/Medium-first fundamentals — work Arrays & Hashing, Two Pointers and Stack, the shared style across the high-priority HackerRank targets (Morgan Stanley, Barclays, Goldman Sachs, JPMorgan) — rather than drilling Optiver's thin 9-problem Design/Linked-List pool in isolation. The same three pipeline items (Barclays' application due 25 Sep, PwC's video interview and Optiver's OA both due 27 Sep) are now 62-64 days past their recorded due dates with no stage change — worth five minutes by hand to confirm whether any actually moved and were simply never logged with `trackrjobs stage`.\n> Only 9 LeetCode problems are tagged Optiver — enough to aim with, not enough to call a pattern. The rest of today's set matches its topic mix rather than claiming it was asked.\n> Correctness under a long clock, not exotic algorithms. Budget the 90 minutes: ~10 reading and writing down the shape, ~55 implementing, ~25 testing and hardening. Optiver's problems skew to building a working data structure or simulating a process step by step, so practise producing a clean, complete class with the operations it asks for — and write your own edge cases, because a long question hides more of them than two short ones do."
+}
